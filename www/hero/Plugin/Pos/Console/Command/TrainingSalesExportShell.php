@@ -505,7 +505,7 @@ class TrainingSalesExportShell extends AppShell
             "date" => $salesDate,
             "batchId" => number_format(0, 0, '.', ''),
             "hour" => '',
-            "receiptCount" => number_format(0, 0, '.', ''),
+            "receipt" => number_format(0, 0, '.', ''),
             "gto" => number_format(0, 2, '.', ''),
             "gst" => number_format(0, 2, '.', ''),
             "discount" => number_format(0, 2, '.', ''),
