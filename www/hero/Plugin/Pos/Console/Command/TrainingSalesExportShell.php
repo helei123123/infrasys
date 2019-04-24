@@ -311,11 +311,6 @@ class TrainingSalesExportShell extends AppShell
             } else
                 $batchId = 1;
             //set receipt GtoSales GSt Discount
-            $GTO = 0;
-            $GST = 0;
-            $Discount = 0;
-            $Receipt = 0;
-            $salesDataArrays = array(24);
             if (!empty($businessDay)) {
                 //Get checks by business day
                 $posChecks = $this->PosCheck->find('all', array(
@@ -327,51 +322,60 @@ class TrainingSalesExportShell extends AppShell
                         'recursive' => 1
                     )
                 );
+                $GTO = array(24);
+                $GST = array(24);
+                $Discount = array(24);
+                $Receipt = array(24);
+                $salesDataArrays = array(24);
                 for ($i = 0; $i < 24; $i++) {
-                    for ($j = 0; $j < count($posChecks); $j++) {
-                        $salesTime = date('H', strtotime($posChecks[$j]['PosCheck']['chks_open_loctime']));
-                        if ($i == $salesTime) {
-                            $GTO += $posChecks[$j]['PosCheck']['chks_item_total'] + $posChecks[$j]['PosCheck']['chks_sc1'] + $posChecks[$j]['PosCheck']['chks_sc2'] + $posChecks[$j]['PosCheck']['chks_sc3'] + $posChecks[$j]['PosCheck']['chks_sc4'] + $posChecks[$j]['PosCheck']['chks_sc5']
-                                + $posChecks[$j]['PosCheck']['chks_pre_disc'] + $posChecks[$j]['PosCheck']['chks_mid_disc'] + $posChecks[$j]['PosCheck']['chks_post_disc'] -
-                                $posChecks[$j]['PosCheck']['chks_incl_tax_ref1'] - $posChecks[$j]['PosCheck']['chks_incl_tax_ref2'] - $posChecks[$j]['PosCheck']['chks_incl_tax_ref3'] -
-                                $posChecks[$j]['PosCheck']['chks_incl_tax_ref4'];
-                            $GST += $posChecks[$j]['PosCheck']['chks_incl_tax_ref1'] + $posChecks[$j]['PosCheck']['chks_incl_tax_ref2'] + $posChecks[$j]['PosCheck']['chks_incl_tax_ref3'] +
-                                $posChecks[$j]['PosCheck']['chks_incl_tax_ref4'];
-                            $Discount += ($posChecks[$j]['PosCheck']['chks_pre_disc'] + $posChecks[$j]['PosCheck']['chks_mid_disc'] + $posChecks[$j]['PosCheck']['chks_post_disc']) * (-1);
-                            $Receipt += 1;
-                        }
-//                        echo '$GTO: '.$GST.'$Discount'.$Discount.'$Receipt'.$Receipt;
-                    }
-                    $hour ='0';
-                    if($i<10){
-                        $hour.=$i;
-                    }else{
-                        $hour=$i;
-                    }
+                    $hour = '0';
+                    if ($i < 10) {
+                        $hour .= $i;
+                    }else
+                        $hour = $i;
+
+                    $GTO[$hour] = 0;
+                    $GST[$hour] = 0;
+                    $Discount[$hour] = 0;
+                    $Receipt[$hour] = 0;
+                }
+                for ($j = 0; $j < count($posChecks); $j++) {
+                    $hour = date('H', strtotime($posChecks[$j]['PosCheck']['chks_open_loctime']));
+                    $GTO[$hour] += $posChecks[$j]['PosCheck']['chks_item_total'] + $posChecks[$j]['PosCheck']['chks_sc1'] + $posChecks[$j]['PosCheck']['chks_sc2'] + $posChecks[$j]['PosCheck']['chks_sc3'] + $posChecks[$j]['PosCheck']['chks_sc4'] + $posChecks[$j]['PosCheck']['chks_sc5']
+                        + $posChecks[$j]['PosCheck']['chks_pre_disc'] + $posChecks[$j]['PosCheck']['chks_mid_disc'] + $posChecks[$j]['PosCheck']['chks_post_disc'] -
+                        $posChecks[$j]['PosCheck']['chks_incl_tax_ref1'] - $posChecks[$j]['PosCheck']['chks_incl_tax_ref2'] - $posChecks[$j]['PosCheck']['chks_incl_tax_ref3'] -
+                        $posChecks[$j]['PosCheck']['chks_incl_tax_ref4'];
+                    $GST[$hour] += $posChecks[$j]['PosCheck']['chks_incl_tax_ref1'] + $posChecks[$j]['PosCheck']['chks_incl_tax_ref2'] + $posChecks[$j]['PosCheck']['chks_incl_tax_ref3'] +
+                        $posChecks[$j]['PosCheck']['chks_incl_tax_ref4'];
+                    $Discount[$hour] += ($posChecks[$j]['PosCheck']['chks_pre_disc'] + $posChecks[$j]['PosCheck']['chks_mid_disc'] + $posChecks[$j]['PosCheck']['chks_post_disc']) * (-1);
+                    $Receipt[$hour] += 1;
+                }
+                for ($i = 0; $i < 24; $i++) {
+                    $hour = '0';
+                    if ($i < 10)
+                        $hour.= $i;
+                    else
+                        $hour = $i;
                     $salesDataArray = $this->__createInfoStructure(date('dmY', strtotime($salesDate)));
                     $salesDataArray['machineId'] = $this->tenantMachineId;
                     $salesDataArray['date'] = $salesDate;
                     $salesDataArray['batchId'] = $batchId;
                     $salesDataArray['hour'] = $hour;
-                    $salesDataArray['receipt'] = $Receipt;
-                    $salesDataArray['gto'] = number_format($GTO, 2, '.', '');
-                    $salesDataArray['gst'] = number_format($GST, 2, '.', '');
-                    $salesDataArray['discount'] = number_format($Discount, 2, '.', '');
+                    $salesDataArray['receipt'] = $Receipt[$hour];
+                    $salesDataArray['gto'] = $GTO[$hour];
+                    $salesDataArray['gst'] = $GST[$hour];
+                    $salesDataArray['discount'] = $Discount[$hour];
                     $salesDataArray['noOfPaxForFBOnly'] = 0;
                     $salesDataArrays[$i] = $salesDataArray;
-                    $GTO = 0;
-                    $GST = 0;
-                    $Discount = 0;
-                    $Receipt = 0;
                 }
             } else {
                 for ($i = 0; $i < 24; $i++) {
-                    $hour ='0';
-                    if($i<10){
-                        $hour.=$i;
-                    }else{
-                        $hour=$i;
-                    }
+                    $hour = '0';
+                    if ($i < 10)
+                        $hour .= $i;
+                    else
+                        $hour = $i;
+
                     $salesDataArray = $this->__createInfoStructure(date('dmY', strtotime($salesDate)));
                     $salesDataArray['machineId'] = $this->tenantMachineId;
                     $salesDataArray['date'] = $salesDate;
@@ -494,21 +498,22 @@ class TrainingSalesExportShell extends AppShell
         return false;
     }
 
-    public function __createInfoStructure($salesDate){
-    		$salesDataArray = array(
-    			"machineId" => '',
-    			"date" => $salesDate,
-    			"batchId" => number_format(0, 0, '.', ''),
-    			"hours" => '',
-    			"receiptCount" => number_format(0, 0, '.', ''),
-    			"gto" => number_format(0, 2, '.', ''),
-    			"gst" => number_format(0, 2, '.', ''),
-    			"discount" => number_format(0, 2, '.', ''),
-    			"noOfPaxForFBOnly" => 0
-    		);
+    public function __createInfoStructure($salesDate)
+    {
+        $salesDataArray = array(
+            "machineId" => '',
+            "date" => $salesDate,
+            "batchId" => number_format(0, 0, '.', ''),
+            "hour" => '',
+            "receiptCount" => number_format(0, 0, '.', ''),
+            "gto" => number_format(0, 2, '.', ''),
+            "gst" => number_format(0, 2, '.', ''),
+            "discount" => number_format(0, 2, '.', ''),
+            "noOfPaxForFBOnly" => 0
+        );
 
-    		return $salesDataArray;
-    	}
+        return $salesDataArray;
+    }
 
 }
 
