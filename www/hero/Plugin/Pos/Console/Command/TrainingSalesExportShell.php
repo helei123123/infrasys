@@ -331,7 +331,7 @@ class TrainingSalesExportShell extends AppShell
                     $hour = '0';
                     if ($i < 10) {
                         $hour .= $i;
-                    }else
+                    } else
                         $hour = $i;
 
                     $GTO[$hour] = 0;
@@ -353,7 +353,7 @@ class TrainingSalesExportShell extends AppShell
                 for ($i = 0; $i < 24; $i++) {
                     $hour = '0';
                     if ($i < 10)
-                        $hour.= $i;
+                        $hour .= $i;
                     else
                         $hour = $i;
                     $salesDataArray = $this->__createInfoStructure(date('dmY', strtotime($salesDate)));
