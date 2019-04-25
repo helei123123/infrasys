@@ -1,0 +1,1035 @@
+<?php
+	if (empty($vars)) {
+		$vars = array(
+					//	General Info
+					'StationName'	=>	'446 Station',
+					'Message1'	=>	'From 1 to 2',
+					'Message1L1'	=>	'From 1 to 2',
+					'Message1L2'	=>	'由 1 至 2',
+					'Message1L3'	=>	'由 1 至 2',
+					'Message1L4'	=>	'From 1 to 2',
+					'Message1L5'	=>	'From 1 to 2',
+					'Message2'	=>	'',
+					'Message2L1'	=>	'',
+					'Message2L2'	=>	'',
+					'Message2L3'	=>	'',
+					'Message2L4'	=>	'',
+					'Message2L5'	=>	'',
+					'Message3'	=>	'',
+					'Message3L1'	=>	'',
+					'Message3L2'	=>	'',
+					'Message3L3'	=>	'',
+					'Message3L4'	=>	'',
+					'Message3L5'	=>	'',
+					'Message4'	=>	'',
+					'Message4L1'	=>	'',
+					'Message4L2'	=>	'',
+					'Message4L3'	=>	'',
+					'Message4L4'	=>	'',
+					'Message4L5'	=>	'',
+					'Message5'	=>	'',
+					'Message5L1'	=>	'',
+					'Message5L2'	=>	'',
+					'Message5L3'	=>	'',
+					'Message5L4'	=>	'',
+					'Message5L5'	=>	'',
+					
+					//	Shop Info
+					'ShopName'		=>	'Infrasys Group',
+					'ShopNameL1'	=>	'Infrasys Group',
+					'ShopNameL2'	=>	'現化集團',
+					'ShopNameL3'	=>	'现化集团',
+					'ShopNameL4'	=>	'Infrasys Group',
+					'ShopNameL5'	=>	'Infrasys Group',
+					
+					//	Table Info
+					'TableNumber'	=>	'10',
+					'TableName'		=>	'C10',
+					'TableNameL1'	=>	'C10',
+					'TableNameL2'	=>	'C10',
+					'TableNameL3'	=>	'C10',
+					'TableNameL4'	=>	'C10',
+					'TableNameL5'	=>	'C10',
+					
+					//	Outlet Info
+					'OutletLogo'	=>	'[WEBROOT_URL]/img/logos/infrasys_black_180x50.png',
+					'OutletCode'	=>	'7001',
+					'OutletCurrencyCode' => 'HKD',
+					'OutletName'	=>	'Infrasys Café',
+					'OutletNameL1'	=>	'Infrasys Café',
+					'OutletNameL2'	=>	'現化咖啡廳',
+					'OutletNameL3'	=>	'现化咖啡厅',
+					'OutletNameL4'	=>	'Infrasys Café',
+					'OutletNameL5'	=>	'Infrasys Café',
+					'Address'	=>	'26/F., Aitken Vanson Centre, 61 Hoi Yuen Road, Kwun Tong, Kowloon, Hong Kong ',
+					'AddressL1'	=>	'26/F., Aitken Vanson Centre, 61 Hoi Yuen Road, Kwun Tong, Kowloon, Hong Kong ',
+					'AddressL2'	=>	'香港九龍觀塘開源道61號金米蘭中心26樓',
+					'AddressL3'	=>	'香港九龙观塘开源道61号金米兰中心26楼',
+					'AddressL4'	=>	'26/F., Aitken Vanson Centre, 61 Hoi Yuen Road, Kwun Tong, Kowloon, Hong Kong ',
+					'AddressL5'	=>	'26/F., Aitken Vanson Centre, 61 Hoi Yuen Road, Kwun Tong, Kowloon, Hong Kong ',
+					'Phone'		=>	'2750 1682',
+					'Fax'		=>	'2305 0176',
+					'DollarSign'=>	'$',
+					'Greeting'	=>	'Have a nice day!',
+					'GreetingL1'	=>	'Have a nice day!',
+					'GreetingL2'	=>	'Have a nice day!',
+					'GreetingL3'	=>	'Have a nice day!',
+					'GreetingL4'	=>	'Have a nice day!',
+					'GreetingL5'	=>	'Have a nice day!',
+					
+					//	Check Info
+					'CheckNumber'	=>	'200008',
+					'CheckCallNumber'	=>	'128',
+					'CheckTitle'	=>	'Guest Check',
+					'CheckGuests'	=>	2,
+					'CheckOpenDate'	=>	date('Y-m-d',time()),
+					'CheckOpenTime'	=>	date('H:i:s',time()),
+					'CheckOpenEmployee'	=>	'Chan Tai Man',
+					'CheckOpenEmployeeL1'	=>	'Chan Tai Man',
+					'CheckOpenEmployeeL2'	=>	'陳大文',
+					'CheckOpenEmployeeL3'	=>	'陈大文',
+					'CheckOpenEmployeeL4'	=>	'Chan Tai Man',
+					'CheckOpenEmployeeL5'	=>	'Chan Tai Man',
+					'CheckOwnerEmployee'	=>	'Chan Tai Man',
+					'CheckOwnerEmployeeL1'	=>	'Chan Tai Man',
+					'CheckOwnerEmployeeL2'	=>	'陳大文',
+					'CheckOwnerEmployeeL3'	=>	'陈大文',
+					'CheckOwnerEmployeeL4'	=>	'Chan Tai Man',
+					'CheckOwnerEmployeeL5'	=>	'Chan Tai Man',
+					'CheckCloseDate'	=>	date('Y-m-d',time()),
+					'CheckCloseTime'	=>	date('H:i:s',time()),
+					'CheckCloseEmployee'	=>	'Mary Cheung',
+					'CheckCloseEmployeeL1'	=>	'Mary Cheung',
+					'CheckCloseEmployeeL2'	=>	'張瑪莉',
+					'CheckCloseEmployeeL3'	=>	'张玛莉',
+					'CheckCloseEmployeeL4'	=>	'Mary Cheung',
+					'CheckCloseEmployeeL5'	=>	'Mary Cheung',
+					'CheckMemberNum'	=>	'A001',
+					'CheckMemberName1'	=>	'Peter Pang',
+					'CheckMemberName2'	=>	'彭彼德',
+					'CheckMemberDisplayName'	=> 'PeterPang',
+					'CheckMemberSpending'	=>	'1000',
+					'CheckNonRevenue' => 1,		//	1 : Non-Revenue Check, 0 : Revenue Check
+					'CheckAdvanceOrder' =>	1,	//	1 : Advance Order Check, 0 : Non-Advance Order Check
+					'CheckOrderMode' => 'f',	//	empty - fine dining, f - fast food, d - delivery mode, k - self-order kiosk
+					'CheckTakeout' => 1,		//	1 : Takeout, 0 : Normal
+					'CheckVoided' => 0,			//	1 : Voided, 0 : Active
+					'CheckVoidedReason' => 'Poor Service',
+					'CheckVoidedReasonL1' => 'Poor Service',
+					'CheckVoidedReasonL2' => '服務差',
+					'CheckVoidedReasonL3' => '服务差',
+					'CheckVoidedReasonL4' => 'Poor Service',
+					'CheckVoidedReasonL5' => 'Poor Service',
+					'TotalItem'	=>	3,
+					'BusinessDate' => date('Y-m-d',time()),
+					'ContinuousPrintPageNumber' => 0,
+					'ContinuousPrintLineNumber' => 0,
+					
+					//	Printing Info
+					'PrintDate'	=>	date('Y-m-d',time()),
+					'PrintTime'	=>	date('H:i:s',time()),
+					'PrintQueueName'	=>	'Bar (Infrasys Café)',
+					'PrintQueueNameL1'	=>	'Bar (Infrasys Café)',
+					'PrintQueueNameL2'	=>	'水吧 (現化咖啡廳)',
+					'PrintQueueNameL3'	=>	'水吧 (现化咖啡厅)',
+					'PrintQueueNameL4'	=>	'Bar (Infrasys Café)',
+					'PrintQueueNameL5'	=>	'Bar (Infrasys Café)',
+					'PrintEmployee'		=>	'Mary Cheung',
+					'PrintEmployeeL1'	=>	'Mary Cheung',
+					'PrintEmployeeL2'	=>	'張瑪莉',
+					'PrintEmployeeL3'	=>	'张玛莉',
+					'PrintEmployeeL4'	=>	'Mary Cheung',
+					'PrintEmployeeL5'	=>	'Mary Cheung',
+					'PrintCount'		=>	1,
+					
+					//	Check Total Info
+					'CheckItemGrossTotal'	=>	200,
+					'CheckItemTotal'	=>	193,
+					'CheckItemTotalUseItemOriPrice'	=>	193,
+					'SCTotal'	=>	20,
+					'TaxTotal'	=>	0,
+					'DiscountForTaxTotal' => 	0,
+					'CheckItemDiscountTotal'=>	-7,
+					'CheckDiscountTotal'=>	-20,
+					'DiscountTotal'		=>	-27,
+					'CheckExtraChargeTotal'=>	10,
+					'CheckRoundTotal'	=>	0.1,
+					'CheckTotal'		=>	223.1,
+					'CheckReleasePaymentCount'		=>	1,
+					'CheckLastReleasePaymentTotal'	=>	280,
+					'CheckDefaultPaymentTotal'	=>	280,
+					'CheckSurchargeTotal' => 30,
+					'CheckPreviousPaidPaymentTotal' => 100,
+					'CheckCurrentPaidPaymentTotal' => 100,
+					'CheckUnpaidPaymentTotal' => 23.1,
+					'CheckIsPaid' => 0,
+					
+					// Check Meal Period Info
+					'CheckMealPeriodName'	=>	'',
+					'CheckMealPeriodNameL1'	=>	'',
+					'CheckMealPeriodNameL2'	=>	'',
+					'CheckMealPeriodNameL3'	=>	'',
+					'CheckMealPeriodNameL4'	=>	'',
+					'CheckMealPeriodNameL5'	=>	'',
+					'CheckMealPeriodShortName'	=>	'',
+					'CheckMealPeriodShortNameL1'	=>	'',
+					'CheckMealPeriodShortNameL2'	=>	'',
+					'CheckMealPeriodShortNameL3'	=>	'',
+					'CheckMealPeriodShortNameL4'	=>	'',
+					'CheckMealPeriodShortNameL5'	=>	'',
+					
+					//	Payment Info
+					'PayAmountTotal'	=>	200,
+					'TipsTotal'	=>	10,
+					'Changes'	=>	40,
+
+					//	Receipt Info
+					'ReprintReceipt'	=>	1,	//	1 : True, 0 : False
+					'ReceiptPrintCount'	=>	1,
+					
+					//	Reservation Info
+					'ReservationPaymentTotal'	=>	100,
+					
+					// OGS payment info
+					'OgsPayMatchNumber' => '000001',
+					'OgsPaytype' => '2',
+					'OgsPayUrl' => 'http://wxpos.infrasys-intl.com/ogs/pay.php/WxPay?mp=MiTnAfwrMaDsEyO0O0Os&trae_no=00012015042210361',
+					'OgsEInvoiceQRCode' => 'http://36.110.112.203:8031/api/saoma/saoma.html?fpid=353424&fplsh=AB0120161107C20922&hjje=62.26&pdbz=0',
+					'OgsPayReceiptUrl'=> 'http://36.110.112.203:8031/api/saoma/saoma.html?fpid=353424&fplsh=AB0120161107C20922&hjje=62.26&pdbz=0',
+					'OgsEInvoiceQRCodeError' => 0,
+					
+					// TaiWan GUI
+					'GUIBarcode'	=> 'taiwanguibarcode',
+					'GUILeftQRCode'	=> 'taiwanguileftqrcode',
+					'GUIMonthPeriod'	=> '05-06',
+					'GUIRightQRCode'	=> 'taiwanguirightqrcode',
+					'GUINumber'	=> 'TW12345678',
+					'GUIPrintCount'	=> 1,
+					'GUIRandomNum'	=> 4050,
+					'GUIRefNum'	=> '12345678',
+					'GUISellerNum'	=> '23456789',
+					'GUIType'	=> 'b',
+					'GUIYear'	=> '104',
+					'GUIPrintTotal'	=> 0,
+					'GUIVatTotal'	=> 3,
+					'GUICarrierId'	=> 'C12345',
+					
+					// Membership Interface member
+					'CheckMembershipIntfAccountNumber' => '0001',
+					'CheckMembershipIntfAccountName' => 'Chan Tai Man',
+					'CheckMembershipIntfAvailableVouchers' => '00001, 00002',
+					'CheckMembershipIntfCardNumber' => '12345678',
+					'CheckMembershipIntfEventOrderNumberForAdd' => '123456',
+					'CheckMembershipIntfEventOrderDepositBalance' => 400,
+					'CheckMembershipIntfEventOrderDepositForAdd' => 400,
+					'CheckMembershipIntfEventOrderNumberForUse' => 500,
+					'CheckMembershipIntfEventOrderDepositForUse' => 500,
+					'CheckMembershipIntfExpiryDate' => "2017-08-31",
+					'CheckMembershipIntfMemberType' => 'JADE',
+					'CheckMembershipIntfLocalBalance' => 1000,
+					'CheckMembershipIntfMaxRedemptionPoints' => 1000,
+					'CheckMembershipIntfMemberNumber' => '10000002',
+					'CheckMembershipIntfMemberOtherName' => '陳大文',
+					'CheckMembershipIntfMemberSurname' => 'Chan',
+					'CheckMembershipIntfNoRedemption' => 'true',
+					'CheckMembershipIntfNric' => 'N00000001',
+					'CheckMembershipIntfOriginalPoints' => 1000,
+					'CheckMembershipIntfPointsAvailable' => 1000,
+					'CheckMembershipIntfPointBalance' => 1000,
+					'CheckMembershipIntfPointEarn' => 10,
+					'CheckMembershipIntfPointsToUse' => 1000,
+					'CheckMembershipIntfMaxRedemptionAmount' => 1000,
+					'CheckMembershipIntfAmountToUse' => 1000,
+					'CheckMembershipIntfRefundPoints' => 1000,
+					'CheckMembershipIntfPostedPointsUse' => 1000,
+					'CheckMembershipIntfPostedAmountUse' => 1000,
+					'CheckMembershipIntfStoreValueBalance' => 500,
+					'CheckMembershipIntfTotalPointsBalance' => 1000,
+					'CheckMembershipIntfRefundAmount' => 1000,
+					'CheckMembershipIntfRefundPoints' => 1000,
+					'CheckMembershipIntfVoucherValue' => 1000,
+					'CheckMembershipIntfMemberRef' => 'Referece 1',
+					'CheckMembershipIntfAttachedAtPayment' => '0',
+					
+					'BonusCode1' => '11111111',
+					'BonusCode2' => '22222222',
+					'BonusCode3' => '33333333',
+					'BonusCode4' => '44444444',
+					'BonusCode5' => '55555555',
+					'BonusCode6' => '66666666',
+					'BonusCode7' => '77777777',
+					'BonusCode8' => '88888888',
+					'BonusCode9' => '99999999',
+					'BonusCode10' => '10000000',
+					
+					// Loyalty Interface member
+					'CheckLoyaltyCardNumber' => 'N00000001',
+					'CheckLoyaltyCardBalance' => 5000,
+					'CheckLoyaltyMemberName' => 'Chan Tai Man',
+					'CheckLoyaltyMemberNumber' => '0001',
+					'CheckLoyaltyPointBalance' => 10,
+					'CheckLoyaltyPointEarn' => 1000,
+					'CheckLoyaltyPointExpiryDate' => '2019/03/01',
+					'CheckLoyaltyPointRedeem' => '5000',
+					'CheckLoyaltyBalanceExpireNextMonth' => 10,
+					'CheckLoyaltyBalanceExpireThisMonth' => 20,
+					'CheckLoyaltyTopUpAmount' => 500,
+					'CheckLoyaltyTopUpRefId' => 'A12345D6C3B94646A8E67978D4BF5ED9',
+					'CheckLoyaltyTopUpTransDate' => date('Y-m-d H:i:s',time()),
+					
+					// Gaming Interface member
+					'CheckGamingIntfMemberNumber' => '0001',
+					'CheckGamingIntfMemberName'=> 'Chan Tai Man',
+					'CheckGamingIntfMemberCardNumber' => '00000000',
+					'CheckGamingIntfPointBalance'=> '0',
+					'CheckGamingIntfPointDepartment'=> '0',
+					'CheckGamingIntfInputMethod'=> 'keyin',
+					'CheckGamingIntfAccountNumber' => 'A001',
+					'CheckGamingIntfCardType' => 'C001',
+					'CheckGamingIntfDiscountRate' => '10',
+					'CheckGamingIntfMemberFirstName' => 'Tai Man',
+					'CheckGamingIntfMemberLastName' => 'Chan',
+					
+					// PMS Interface member
+					'CheckPmsIntfRoomNumber' => 'R0001',
+					'CheckPmsIntfRoomGuestName' => 'Chan Tai Man',
+					
+					// Transfer Check to other outlets
+					"CheckTargetOutletCode" => "A0002",
+					"CheckTargetOutletName" => 'Outlet 2',
+					
+					// Transfer Check to other outlets
+					"CheckGuestName" => "Peter Chan",
+					"CheckGuestPhone" => '21234567',
+					"CheckGuestFax" => '29876543',
+					"CheckDepositAmount" => 100,
+					"CheckReferenceNumber" => "20170314AA123456",
+					"CheckPickupDate" => "2017-03-16",
+					"HotelCurrency" => "HKD",
+					
+					// QR Code
+					"QRCode" => "http://36.110.112.203:8045/fp/d?d=58c7b903efef3153deca59d9"
+				);
+		
+		//	Service Charge & Check Info
+		for ($i=1; $i<=5; $i++) {
+			$vars['SC'.$i] = 4;
+			$vars['SCName'.$i] = 'SC'.$i;
+			$vars['SCName'.$i.'L1'] = 'SC'.$i;
+			$vars['SCName'.$i.'L2'] = '服務費'.$i;
+			$vars['SCName'.$i.'L3'] = '服务费'.$i;
+			$vars['SCName'.$i.'L4'] = 'SC'.$i;
+			$vars['SCName'.$i.'L5'] = 'SC'.$i;
+			$vars['SCShortName'.$i] = 'SC'.$i;
+			$vars['SCShortName'.$i.'L1'] = 'SC'.$i;
+			$vars['SCShortName'.$i.'L2'] = '服務費'.$i;
+			$vars['SCShortName'.$i.'L3'] = '服务费'.$i;
+			$vars['SCShortName'.$i.'L4'] = 'SC'.$i;
+			$vars['SCShortName'.$i.'L5'] = 'SC'.$i;
+			$vars['CheckInfo'.$i] = 'Check Info'.$i;
+		}
+
+		for ($i=1; $i<=25; $i++) {
+			$vars['Tax'.$i] = 0;
+			$vars['DiscountForTax'.$i] = 0;
+			$vars['TaxName'.$i] = 'Tax'.$i;
+			$vars['TaxName'.$i.'L1'] = 'Tax'.$i;
+			$vars['TaxName'.$i.'L2'] = '稅項'.$i;
+			$vars['TaxName'.$i.'L3'] = '税项'.$i;
+			$vars['TaxName'.$i.'L4'] = 'Tax'.$i;
+			$vars['TaxName'.$i.'L5'] = 'Tax'.$i;
+			$vars['TaxShortName'.$i] = 'Tax'.$i;
+			$vars['TaxShortName'.$i.'L1'] = 'Tax'.$i;
+			$vars['TaxShortName'.$i.'L2'] = '稅項'.$i;
+			$vars['TaxShortName'.$i.'L3'] = '税项'.$i;
+			$vars['TaxShortName'.$i.'L4'] = 'Tax'.$i;
+			$vars['TaxShortName'.$i.'L5'] = 'Tax'.$i;
+			$vars['TaxRate'.$i] = 7;
+			$vars['CheckItemTotalWithTax'.$i] = 6;
+			$vars['SCTotalWithTax'.$i] = 5;
+		}
+			
+		//	Inclusive Tax Reference Info
+		for ($i=1; $i<=4; $i++)
+			$vars['InclusiveTaxRef'.$i] = 2.8;
+		
+		//	Advance Order Note
+		for ($i=1; $i<=2; $i++)
+			$vars['CheckGuestNote'.$i] = 'Guest Note'.$i;
+		
+		$Items = array(
+					0 => array(
+							'ItemId' => 1,
+							'ItemCode' => 'M001',
+							'ItemCost' => 20,
+							'ItemName' => 'Tuna Steak (One Piece)',
+							'ItemNameL1' => 'Tuna Steak (One Piece)',
+							'ItemNameL2' => '吞拿魚扒 (一塊)',
+							'ItemNameL3' => '吞拿鱼扒 (一块)',
+							'ItemNameL4' => 'Tuna Steak (One Piece)',
+							'ItemNameL5' => 'Tuna Steak (One Piece)',
+							'ItemShortName' => 'Tuna Steak',
+							'ItemShortNameL1' => 'Tuna Steak',
+							'ItemShortNameL2' => '吞拿魚扒',
+							'ItemShortNameL3' => '吞拿鱼扒',
+							'ItemShortNameL4' => 'Tuna Steak',
+							'ItemShortNameL5' => 'Tuna Steak',
+							'ItemQuantity' => 1,
+							'TotalItemCost' => 20,
+							'ItemSequence' => 1,
+							'ItemInfo' => 'Pan seared tuna steak with taggiasca olives and orange served with fennel salad in "Trapani" pesto',
+							'ItemInfoL1' => 'Pan seared tuna steak with taggiasca olives and orange served with fennel salad in "Trapani" pesto',
+							'ItemInfoL2' => '扒吞拿魚、香橙、香草沙律伴橄欖醬',
+							'ItemInfoL3' => '扒吞拿鱼、香橙、香草沙律伴橄榄酱',
+							'ItemInfoL4' => 'Pan seared tuna steak with taggiasca olives and orange served with fennel salad in "Trapani" pesto',
+							'ItemInfoL5' => 'Pan seared tuna steak with taggiasca olives and orange served with fennel salad in "Trapani" pesto',
+							'ItemOriginalPrice'	=> 130,
+							'ItemPrice' => 130,
+							'ItemTotal' => 130,
+							'ItemDiscountTotal' => 0,
+							'ItemCourseName' => 'Main Course',
+							'ItemCourseNameL1' => 'Main Course',
+							'ItemCourseNameL2' => '主菜',
+							'ItemCourseNameL3' => '主菜',
+							'ItemCourseNameL4' => 'Main Course',
+							'ItemCourseNameL5' => 'Main Course',
+							'ItemCatName' => 'Fish',
+							'ItemCatNameL1' => 'Fish',
+							'ItemCatNameL2' => '魚',
+							'ItemCatNameL3' => '魚',
+							'ItemCatNameL4' => 'Fish',
+							'ItemCatNameL5' => 'Fish',
+							'ItemDeptId' => 1,
+							'ItemDept' => 'Food',
+							'ItemDeptL1' => 'Food',
+							'ItemDeptL2' => '食品',
+							'ItemDeptL3' => '食品',
+							'ItemDeptL4' => 'Food',
+							'ItemDeptL5' => 'Food',
+							'ItemOrderEmployee'	=>	'Chan Tai Man',
+							'ItemOrderEmployeeL1'	=>	'Chan Tai Man',
+							'ItemOrderEmployeeL2'	=>	'陳大文',
+							'ItemOrderEmployeeL3'	=>	'陈大文',
+							'ItemOrderEmployeeL4'	=>	'Chan Tai Man',
+							'ItemOrderEmployeeL5'	=>	'Chan Tai Man',
+							'ItemOrderTime'	=> '12:00:00',
+							'ItemSeatNum'	=>	1,
+							'ItemCourseNum'	=>	1,
+							'ItemGroupStart'	=>	1,	//	1 : True, 0 : False
+							'ItemGroupEnd'	=>	0,	//	1 : True, 0 : False
+							'ItemTakeout' => 1,		//	1 : Takeout, 0 : Normal
+							'ItemPending' => 1,//1:Pending, 0:Active
+							'ItemVoid' => 1, //1:Voided, 0:Active
+							'ItemVoidOrderTime' => '12:00:00',
+							'ItemVoidOrderEmployee' => 'Chan Tai Man',
+							'ItemVoidOrderEmployeeNum' => '1',	
+							'ItemCouponNumber' => 'C0000001',
+							'SetMenuCode' => 'Set 028',
+							'SetMenuName' => 'Lunch Set',
+							'SetMenuNameL1' => 'Lunch Set',
+							'SetMenuNameL2' => '是日午餐',
+							'SetMenuNameL3' => '是日午餐',
+							'SetMenuNameL4' => 'Lunch Set',
+							'SetMenuNameL5' => 'Lunch Set',
+							'ItemTaxTotal' => 25,
+							'ItemCallNumber' 	=> 'B001',
+							'ItemLoyaltySVCCardNumber' => '項目積分計劃SVC卡號碼',
+							'ItemLoyaltyMemberNumber' => '項目積分計劃會員名稱',
+							'ItemLoyaltySVCCardExpiryDate' => '項目積分計劃SVC卡到期日',
+							'ItemLoyaltySVCRemark' => '項目積分計劃SVC備註',
+							'ItemMembershipIntfVoucherNumber' => '12345678',
+							'ItemReference' => '項目引用',
+							'OddEvenAmount' =>'OddEvenAmount',
+							'ChildItems' => array(
+												0 => array (
+													'ChildItemName' => 'Caesar Salad (One Dish)',
+													'ChildItemNameL1' => 'Caesar Salad (One Dish)',
+													'ChildItemNameL2' => '凱撒沙律 (一碟)',
+													'ChildItemNameL3' => '凯撒沙律 (一碟)',
+													'ChildItemNameL4' => 'Caesar Salad (One Dish)',
+													'ChildItemNameL5' => 'Caesar Salad (One Dish)',
+													'ChildItemShortName' => 'Caesar Salad',
+													'ChildItemShortNameL1' => 'Caesar Salad',
+													'ChildItemShortNameL2' => '凱撒沙律',
+													'ChildItemShortNameL3' => '凯撒沙律',
+													'ChildItemShortNameL4' => 'Caesar Salad',
+													'ChildItemShortNameL5' => 'Caesar Salad',
+													'ChildItemPrice' => 55,
+													'ChildItemSequence' => 2,
+													'ChildItemTakeout' => 1,		//	1 : Takeout, 0 : Normal
+													'ChildItemCallNumber' => 'C001',
+													'Modifiers' => array(
+																	0 => array(
+																			'ModifierCode'=>'M001',
+																			'ModifierName'=>'Sesame Sauce (One Portion)',
+																			'ModifierNameL1'=>'Sesame Sauce (One Portion)',
+																			'ModifierNameL2'=>'芝麻醬 (一份)',
+																			'ModifierNameL3'=>'芝麻酱 (一份)',
+																			'ModifierNameL4'=>'Sesame Sauce (One Portion)',
+																			'ModifierNameL5'=>'Sesame Sauce (One Portion)',
+																			'ModifierShortName'=>'Sesame Sauce',
+																			'ModifierShortNameL1'=>'Sesame Sauce',
+																			'ModifierShortNameL2'=>'芝麻醬',
+																			'ModifierShortNameL3'=>'芝麻酱',
+																			'ModifierShortNameL4'=>'Sesame Sauce',
+																			'ModifierShortNameL5'=>'Sesame Sauce',
+																			'ModifierQuantity'=>1,
+																			'ModifierPrice'=>0.00
+																		),
+																	)
+													),
+												1 => array (
+														'ChildItemName' => 'Today Soap (One Bowl)',
+														'ChildItemNameL1' => 'Today Soap (One Bowl)',
+														'ChildItemNameL2' => '是日餐湯 (一碗)',
+														'ChildItemNameL3' => '是日餐汤 (一碗)',
+														'ChildItemNameL4' => 'Today Soap (One Bowl)',
+														'ChildItemNameL5' => 'Today Soap (One Bowl)',
+														'ChildItemShortName' => 'Today Soap',
+														'ChildItemShortNameL1' => 'Today Soap',
+														'ChildItemShortNameL2' => '是日餐湯',
+														'ChildItemShortNameL3' => '是日餐汤',
+														'ChildItemShortNameL4' => 'Today Soap',
+														'ChildItemShortNameL5' => 'Today Soap',
+														'ChildItemPrice' => 15,
+														'ChildItemSequence' => 3,
+														'ChildItemTakeout' => 0,		//	1 : Takeout, 0 : Normal
+														'ChildItemCallNumber' => 'C002',
+													)
+											),
+							'Modifiers' => array(
+												0 => array(
+														'ModifierCode'=>'M002',
+														'ModifierName'=>'Medium (50%)',
+														'ModifierNameL1'=>'Medium (50%)',
+														'ModifierNameL2'=>'半生熟 (50%)',
+														'ModifierNameL3'=>'半生熟 (50%)',
+														'ModifierNameL4'=>'Medium (50%)',
+														'ModifierNameL5'=>'Medium (50%)',
+														'ModifierShortName'=>'Medium',
+														'ModifierShortNameL1'=>'Medium',
+														'ModifierShortNameL2'=>'半生熟',
+														'ModifierShortNameL3'=>'半生熟',
+														'ModifierShortNameL4'=>'Medium',
+														'ModifierShortNameL5'=>'Medium',
+													),
+												1 => array(
+														'ModifierCode'=>'M003',
+														'ModifierName'=>'Side Dish - Potato (One Portion)',
+														'ModifierNameL1'=>'Side Dish - Potato (One Portion)',
+														'ModifierNameL2'=>'配菜 - 薯菜 (一份)',
+														'ModifierNameL3'=>'配菜 - 薯菜 (一份)',
+														'ModifierNameL4'=>'Side Dish - Potato (One Portion)',
+														'ModifierNameL5'=>'Side Dish - Potato (One Portion)',
+														'ModifierShortName'=>'Side Dish - Potato',
+														'ModifierShortNameL1'=>'Side Dish - Potato',
+														'ModifierShortNameL2'=>'配菜 - 薯菜',
+														'ModifierShortNameL3'=>'配菜 - 薯菜',
+														'ModifierShortNameL4'=>'Side Dish - Potato',
+														'ModifierShortNameL5'=>'Side Dish - Potato',
+													)
+											)
+						),
+					1 => array(
+							'ItemId' => 2,
+							'ItemCode' => 'D001',
+							'ItemCost' => 20,
+							'ItemName' => 'Tiramisu (One Piece)',
+							'ItemNameL1' => 'Tiramisu (One Piece)',
+							'ItemNameL2' => '芝士蛋糕 (一件)',
+							'ItemNameL3' => '芝士蛋糕 (一件)',
+							'ItemNameL4' => 'Tiramisu (One Piece)',
+							'ItemNameL5' => 'Tiramisu (One Piece)',
+							'ItemShortName' => 'Tiramisu',
+							'ItemShortNameL1' => 'Tiramisu',
+							'ItemShortNameL2' => '芝士蛋糕',
+							'ItemShortNameL3' => '芝士蛋糕',
+							'ItemShortNameL4' => 'Tiramisu',
+							'ItemShortNameL5' => 'Tiramisu',
+							'ItemQuantity' => 2,
+							'TotalItemCost' => 40,
+							'ItemSequence' => 4,
+							'ItemInfo' => 'Italian cheesecake with mint cream',
+							'ItemInfoL1' => 'Italian cheesecake with mint cream',
+							'ItemInfoL2' => '意大利芝士蛋糕伴薄荷忌廉',
+							'ItemInfoL3' => '意大利芝士蛋糕伴薄荷忌廉',
+							'ItemInfoL4' => 'Italian cheesecake with mint cream',
+							'ItemInfoL5' => 'Italian cheesecake with mint cream',
+							'ItemOriginalPrice' => 70,
+							'ItemPrice' => 63,
+							'ItemTotal' => 70,
+							'ItemDiscountTotal' => -7,
+							'ItemCourseName' => 'Dessert',
+							'ItemCourseNameL1' => 'Dessert',
+							'ItemCourseNameL2' => '甜品',
+							'ItemCourseNameL3' => '甜品',
+							'ItemCourseNameL4' => 'Dessert',
+							'ItemCourseNameL5' => 'Dessert',
+							'ItemCatName' => 'Dessert',
+							'ItemCatNameL1' => 'Dessert',
+							'ItemCatNameL2' => '甜品',
+							'ItemCatNameL3' => '甜品',
+							'ItemCatNameL4' => 'Dessert',
+							'ItemCatNameL5' => 'Dessert',
+							'ItemDeptId' => 1,
+							'ItemDept' => 'Food',
+							'ItemDeptL1' => 'Food',
+							'ItemDeptL2' => '食品',
+							'ItemDeptL3' => '食品',
+							'ItemDeptL4' => 'Food',
+							'ItemDeptL5' => 'Food',
+							'ItemOrderEmployee'	=>	'Mary Cheung',
+							'ItemOrderEmployeeL1'	=>	'Mary Cheung',
+							'ItemOrderEmployeeL2'	=>	'張瑪莉',
+							'ItemOrderEmployeeL3'	=>	'张玛莉',
+							'ItemOrderEmployeeL4'	=>	'Mary Cheung',
+							'ItemOrderEmployeeL5'	=>	'Mary Cheung',
+							'ItemOrderTime'	=> '12:00:00',
+							'ItemSeatNum'	=>	1,
+							'ItemCourseNum'	=>	2,
+							'ItemGroupStart'	=>	0,	//	1 : True, 0 : False
+							'ItemGroupEnd'	=>	1,	//	1 : True, 0 : False
+							'ItemTakeout' => 0,		//	1 : Takeout, 0 : Normal
+							'ItemPending' => 1,//1:Pending, 0:Active
+							'ItemVoid' => 1, //1:Voided, 0:Active
+							'ItemVoidOrderTime' => '12:00:00',
+							'ItemVoidOrderEmployee' => 'Chan Tai Man',
+							'ItemVoidOrderEmployeeNum' => '1',	
+							'ItemCouponNumber' => 'C0000001',
+							'ItemCallNumber' 	=> 'B002',
+							'ItemLoyaltySVCCardNumber' => '項目積分計劃SVC卡號碼',
+							'ItemLoyaltyMemberNumber' => '項目積分計劃會員名稱',
+							'ItemLoyaltySVCCardExpiryDate' => '項目積分計劃SVC卡到期日',
+							'ItemLoyaltySVCRemark' => '項目積分計劃SVC備註',
+							'ItemLoyaltyCardNumber' => 'C0000001',
+							'ItemLoyaltyPointAddValue' => '000010',
+							'ItemLoyaltyPointBalance' => '100',
+							'ItemMembershipIntfVoucherNumber' => '12345678',
+							'ItemReference' => '項目引用',
+							'OddEvenAmount' =>'OddEvenAmount',
+							'Discounts' => array(
+												0 => array (
+														'DiscountCode' => '0001',
+														'DiscountName' => '10% Dessert Discount - Pre Disc',
+														'DiscountNameL1' => '0% Dessert Discount - Pre Disc',
+														'DiscountNameL2' => '10%甜品折扣',
+														'DiscountNameL3' => '10%甜品折扣',
+														'DiscountNameL4' => '10% Dessert Discount - Pre Disc',
+														'DiscountNameL5' => '10% Dessert Discount - Pre Disc',
+														'DiscountAmount' => -7,
+														'DiscountMembershipIntfVoucherNumbers' => 'Voucher0002,Voucher0003',
+														'DiscountAppliedEmployee' 		=> '張瑪莉',
+														'DiscountAppliedEmployeeL1' 	=> '張瑪莉',
+														'DiscountAppliedEmployeeL2' 	=> '張瑪莉',
+														'DiscountAppliedEmployeeL3' 	=> '張瑪莉',
+														'DiscountAppliedEmployeeL4' 	=> '張瑪莉',
+														'DiscountAppliedEmployeeL5' 	=> '張瑪莉',
+														'DiscountMemberNumber'	=>	'13325',
+														'DiscountReference'	=>	'Reference1',
+														'DiscountMemberExpiryDate' => '20171231'
+													)
+											)
+						)
+				);
+		for ($i=1; $i<=25; $i++)
+			$Items[0]['ItemTax'.$i] = 1;
+		$vars['Items'] = $Items;
+		
+		$CheckDiscounts = array(
+							0 => array (
+									'DiscountCode' => '0001',
+									'DiscountName' => 'General 10% Discount',
+									'DiscountNameL1' => 'General 10% Discount',
+									'DiscountNameL2' => '普通10%折扣',
+									'DiscountNameL3' => '普通1​​0%折扣',
+									'DiscountNameL4' => 'General 10% Discount',
+									'DiscountNameL5' => 'General 10% Discount',
+									'DiscountAmount' => -20,
+									'DiscountMembershipIntfVoucherNumbers' => 'Voucher0001',
+									'DiscountAppliedEmployee' 		=> '張瑪莉',
+									'DiscountAppliedEmployeeL1' 	=> '張瑪莉',
+									'DiscountAppliedEmployeeL2' 	=> '張瑪莉',
+									'DiscountAppliedEmployeeL3' 	=> '張瑪莉',
+									'DiscountAppliedEmployeeL4' 	=> '張瑪莉',
+									'DiscountAppliedEmployeeL5' 	=> '張瑪莉',
+									'DiscountMemberNumber'	=>	'13325',
+									'DiscountReference'	=>	'Reference1',
+									'DiscountMemberExpiryDate' => '20171231',
+									'DiscountMembershipIntfPointUsed' => 10
+								)
+						);
+		$vars['CheckDiscounts'] = $CheckDiscounts;
+		
+		$CheckExtraCharges = array(
+								0 => array(
+										'ExtraChargeCode' => '0003',
+										'ExtraChargeName' => 'Extra Charge $10',
+										'ExtraChargeNameL1' => 'Extra Charge $10',
+										'ExtraChargeNameL2' => '額外收費 $10',
+										'ExtraChargeNameL3' => '额外收费 $5',
+										'ExtraChargeNameL4'	=> 'Extra Charge $10',
+										'ExtraChargeNameL5' => 'Extra Charge $10',
+										'ExtraChargeAmount' => 10,
+										'ExtraChargeMembershipIntfVoucherNumbers' => 'Voucher0001',
+										'ExtraChargeAppliedEmployee'   => '張瑪莉',
+										'ExtraChargeAppliedEmployeeL1' => '張瑪莉',
+										'ExtraChargeAppliedEmployeeL2' => '張瑪莉',
+										'ExtraChargeAppliedEmployeeL3' => '張瑪莉',
+										'ExtraChargeAppliedEmployeeL4' => '張瑪莉',
+										'ExtraChargeAppliedEmployeeL5' => '張瑪莉',
+										'ExtraChargeMemberNumber'  => '23456',
+										'ExtraChargeReference' 	=> 'Reference1'
+									)
+							);
+		$vars['CheckExtraCharges']	= $CheckExtraCharges;
+		
+		$DiscTotalByDiscType = array(
+							0 => array (
+									'DiscountCode' => '0001',
+									'DiscountName' => 'General 10% Discount',
+									'DiscountNameL1' => 'General 10% Discount',
+									'DiscountNameL2' => '普通10%折扣',
+									'DiscountNameL3' => '普通1​​0%折扣',
+									'DiscountNameL4' => 'General 10% Discount',
+									'DiscountNameL5' => 'General 10% Discount',
+									'DiscountAmount' => -20,
+									'DiscountMemberNumber'	=>	'13325',
+									'DiscountReference'	=>	'Reference1',
+									'DiscountMemberExpiryDate' => '20171231'
+								),
+							1 => array (
+									'DiscountCode' => '0001',
+									'DiscountName' => '10% Dessert Discount - Pre Disc',
+									'DiscountNameL1' => '0% Dessert Discount - Pre Disc',
+									'DiscountNameL2' => '10%甜品折扣',
+									'DiscountNameL3' => '10%甜品折扣',
+									'DiscountNameL4' => '10% Dessert Discount - Pre Disc',
+									'DiscountNameL5' => '10% Dessert Discount - Pre Disc',
+									'DiscountAmount' => -7,
+									'DiscountMemberNumber'	=>	'13325',
+									'DiscountReference'	=>	'Reference1',
+									'DiscountMemberExpiryDate' => ''
+								)
+						);
+		$vars['DiscTotalByDiscType'] = $DiscTotalByDiscType;
+		
+		$Gratuities = array(
+					0 => array (
+							'GratuityName' => '10% Gratuity',
+							'GratuityNameL1' => '10% Gratuity',
+							'GratuityNameL2' => '10%賞錢',
+							'GratuityNameL3' => '1​​0%赏钱',
+							'GratuityNameL4' => 'General 10% Discount',
+							'GratuityNameL5' => 'General 10% Discount',
+							'GratuityAmount' => 10,
+						)
+				);
+		$vars['Gratuity'] = $Gratuities;
+		$vars['GratuityTotal'] = 10;
+		
+		$Payments = array(
+						0 => array (
+								'PaymentName' => 'Hong Kong Dollars',
+								'PaymentNameL1' => 'Hong Kong Dollars',
+								'PaymentNameL2' => '港幣',
+								'PaymentNameL3' => '港币',
+								'PaymentNameL4' => 'Hong Kong Dollars',
+								'PaymentNameL5' => 'Hong Kong Dollars',
+								'PaymentCode'	=> '1001',
+								'PaymentAmount' => 200,
+								'PaymentTotal' => 210,
+								'PaymentTips' => 10,
+								'PaymentResidue' => 0,
+								'PaymentChanges' => 40,
+								'PaymentSurcharge' => 10.5,
+								'PaymentType' => 'Cash',
+								'PaymentMemberNum'	=>	'A001',
+								'PaymentMemberName1'	=>	'Steven Chow',
+								'PaymentMemberName2'	=>	'周史提芬',
+								'PaymentMemberDisplayName'	=> 'StevenChow',
+								'PaymentMemberSpending'	=>	'2000',
+								'PaymentEmployeeNum'	=>	'E001',
+								'PaymentEmployeeName'	=>	'Chan Tai Man',
+								'PaymentEmployeeNameL1' =>	'Chan Tai Man',
+								'PaymentEmployeeNameL2' =>	'陳大文',
+								'PaymentEmployeeNameL3' =>	'陈大文',
+								'PaymentEmployeeNameL4' =>	'Chan Tai Man',
+								'PaymentEmployeeNameL5' =>	'Chan Tai Man',
+								'PaymentEmployeeRemainingLimit' =>	2,
+								'PaymentEmployeeMaxLimit' => 100,
+								'PaymentVoucherNum' =>	'V001',
+								'PaymentOctopusCardType' => '3',
+								'PaymentOctopusTransactionAmount' => '210',
+								'PaymentOctopusUdsn' => '180',
+								'PaymentOctopusOriginalAmount' => '500',
+								'PaymentOctopusDeviceId' => '40FF33',
+								'PaymentOctopusCurrentAmount' => '290',
+								'PaymentOctopusCardId' => '20835775',
+								'PaymentOctopusLastAddValueType' => 'CASH',
+								'PaymentOctopusLastAddValueDate' => '2016-01-01',
+								'PaymentOctopusTransactionTime' => '12:00:00',
+								'PaymentPmsGuestName' => 'Tung Tung',
+								'PaymentPmsGuestNumber' => '0004',
+								'PaymentPmsRoomNumber' => '0020',
+								'PaymentNonGUI'	=> '0',
+								'PaymentCreditCardNum' => '************1001',
+								'PaymentCreditCardExpDate' => '1512',
+								'PaymentCreditCardHolderName' => 'CHAN TAI MAN',
+								'PaymentCreditCardTerminalNumber' => '01000184',
+								'PaymentCreditCardBatchNumber' => '000002',
+								'PaymentCreditCardMerchantNumber' => '870088515200',
+								'PaymentCreditCardReferenceNumber' => '000000000237',
+								'PaymentCreditCardApprovalCode' => '000138',
+								'PaymentCreditCardTypeName' => 'VISA',
+								//Rewrite Card Payment
+								'PaymentRewriteCardOriginalAmount' => '500',
+								'PaymentRewriteCardCurrentAmount' => '290',
+								'PaymentRewriteCardCardNumber' => '20835775',
+								
+								//Membership Interface Payment
+								'PaymentMembershipIntfAccountNumber' => '0001',
+								'PaymentMembershipIntfTraceID' => '20151212000000',
+								'PaymentMembershipIntfAuthorityCode' => '01',
+								'PaymentMembershipIntfAwardCode' => 'ABD123467890',
+								'PaymentMembershipIntfLocalBalance' => '1112',
+								'PaymentMembershipIntfAccountName' => 'Chan Tai Man',
+								'PaymentMembershipIntfEnglishName' => 'Chan Tai Man',
+								'PaymentMembershipIntfCardTypeName' => 'Standard',
+								'PaymentMembershipIntfPrintLine1' => 'Membership Interface Print Line 1',
+								'PaymentMembershipIntfPrintLine2' => 'Membership Interface Print Line 2',
+								'PaymentMembershipIntfPointBalance' => '1112',
+								'PaymentMembershipIntfPointEarn' => '12',
+								'PaymentMembershipIntfExpiryDate' => '2015-12-31',
+								'PaymentMembershipIntfCardLevelName' => 'Card Level 1',
+								'PaymentMembershipIntfCardNumber' => '1234567',
+								'PaymentMembershipIntfMemberNumber' => 'M000001',
+								'PaymentMembershipIntfMemberName' => 'Chan Tai Man',
+								'PaymentMembershipIntfMemberType' => 'JADE',
+								'PaymentMembershipIntfCouponNumber' => 'C0000002',
+								'PaymentMembershipIntfCouponFaceAmt' => '50.00',
+								'PaymentMembershipInfCardStoreValueUsed' => '3000',
+								'PaymentMembershipIntfPointUsed' => '1000',
+								'PaymentMembershipIntfPointRedeem' => '5000',
+								
+								//Gaming Interface Payment
+								'PaymentGamingIntfMemberName' => 'Chan Tai Man',
+								'PaymentGamingIntfMemberNumber' => '1234',
+								'PaymentGamingIntfMemberCardNumber' => '12345',
+								'PaymentGamingIntfInputMethod' => 'keyin',
+								'PaymentGamingIntfStaffId' => '0000000',
+								'PaymentGamingIntfRemark'=> 'defaultremark',
+								'PaymentGamingIntfUserNumber'=> '12345678',
+								'PaymentGamingIntfPointBalance'=> '0',
+								'PaymentGamingIntfPointDepartment'=> '0',
+								'PaymentGamingIntfGiftCertId'=> '0',
+								'PaymentGamingIntfCouponId'=> '0',
+								'PaymentGamingIntfAccountNumber' => 'A001',
+								'PaymentGamingIntfCardType' => 'Type 1',
+								'PaymentGamingIntfMemberFirstName' => 'Tai Man',
+								'PaymentGamingIntfMemberLastName' => 'Chan',
+								'PaymentGamingIntfReferenceNumber' => 'R001',
+								'PaymentGamingIntfCompNumber' => 'COMP1234',
+								'PaymentGamingIntfTransactionKey' => 'TRANS1234',
+								
+								//Foreign Currency Payment
+								'PaymentByForeignCurrency' => '1',
+								'PaymentChangesBackForeignCurrency'	=> '1',
+								'PaymentAmountInForeignCurrency' => '5.5',
+								'PaymentTotalInForeignCurrency' => '6.0',
+								'PaymentTipsInForeignCurrency' => '0.5',
+								'PaymentResidueInForeignCurrency' => '0.0',
+								'PaymentChangesInForeignCurrency' => '0.0',
+								'PaymentSurchargeInForeignCurrency' => '0.3',
+								
+								//Payment Interface Payment
+								'PaymentPayInfMerchantName' => 'Hotel Infrasys',
+								'PaymentPayInfMerchantNumber' => 'H123456789',
+								'PaymentPayInfTransactionTime' => '2016-03-30 12:30:00',
+								'PaymentPayInfTransactionNum' => '11111222223333344444',
+								'PaymentPayInfPayAmount' => '200',
+								'PaymentPayInfInvoiceAmount' => '200',
+								'PaymentPayInfChannelTransactionNum' => 'C1111122222233333',
+								'PaymentPayInfAccountNum' => 'M123456789',
+								'PaymentPayInfCardNumber' => '476173******0119',
+								'PaymentPayInfPointsBalance' => '10',
+								'PaymentPayInfPlatformTransactionNum' => 'P111111222222333333',
+								
+								//Voucher Interface Payment
+								'PaymentVoucherIntfVoucherNumber' => '00000000',
+								
+								'PaymentRunningNumber' => 'P1181',
+								'PaymentReferenceNum1' => 'PaymentRef1',
+								'PaymentReferenceNum2' => 'PaymentRef2',
+								'PaymentReferenceNum3' => 'PaymentRef3',
+								
+								'PaymentLoyaltySVCCardNumber' => '積分計劃SVC卡付款號碼',
+								'PaymentLoyaltySVCRemainingBalance' => '積分計劃SVC卡剩餘儲值金額',
+								'PaymentLoyaltyCardNumber' => 'C0000001',
+								'PaymentLoyaltyCurrentAmount' => '1000',
+								'PaymentLoyaltyOriginalAmount' => '2000'
+							)
+					);
+		$vars['Payments'] = $Payments;
+		
+		$DefaultPayments = array(
+						0 => array (
+								'DefaultPaymentName' => 'Hong Kong Dollars',
+								'DefaultPaymentNameL1' => 'Hong Kong Dollars',
+								'DefaultPaymentNameL2' => '港幣',
+								'DefaultPaymentNameL3' => '港币',
+								'DefaultPaymentNameL4' => 'Hong Kong Dollars',
+								'DefaultPaymentNameL5' => 'Hong Kong Dollars',
+								'DefaultPaymentAmount' => 100,
+							)
+					);
+		$vars['DefaultPayments'] = $DefaultPayments;
+		
+		$Departments = array(
+						0 => array (
+								'DepartmentId' => 1,
+								'DepartmentName' => 'Food',
+								'DepartmentNameL1' => 'Food',
+								'DepartmentNameL2' => '食品',
+								'DepartmentNameL3' => '食品',
+								'DepartmentNameL4' => 'Food',
+								'DepartmentNameL5' => 'Food',
+								'DepartmentTotal' => 200,
+							)
+					);
+		$vars['Departments'] = $Departments;
+		
+		$Categories = array(
+						0 => array (
+								'CategoryId' => 1,
+								'CategoryName' => 'Food',
+								'CategoryNameL1' => 'Food',
+								'CategoryNameL2' => '食品',
+								'CategoryNameL3' => '食品',
+								'CategoryNameL4' => 'Food',
+								'CategoryNameL5' => 'Food',
+								'CategoryTotal' => 200
+							)
+					);
+		$vars['Categories'] = $Categories;
+		
+		$AwardList = array(
+						0 => array (
+								'AwardPoints' => '10000',
+								'AwardAmount' => '50.00'
+							)
+					);
+		$vars['AwardList'] = $AwardList;
+		
+		$AllReleasePaymentRunningNumber = array(
+						0 => array (
+								'AllReleasePaymentRunningNumber' => '1000'
+							)
+					);
+		$vars['AllReleasePaymentRunningNumber'] = $AllReleasePaymentRunningNumber;
+		
+		$LastReleasePaymentRunningNumber = array(
+						0 => array (
+								'LastReleasePaymentRunningNumber' => '1001'
+							)
+					);
+		$vars['LastReleasePaymentRunningNumber'] = $LastReleasePaymentRunningNumber;
+		
+		$MembershipIntfAvailableVouchers = array(
+						0 => array (
+								'MembershipIntfAvailableVoucher' => '1002'
+							)
+					);
+		$vars['MembershipIntfAvailableVouchers'] = $MembershipIntfAvailableVouchers;
+		
+		$cardAuthorizations = array(
+						0 => array (
+								'AuthAcquirerData' => 'ABC',
+								'AuthAcquirerDatetime' => '2016-03-30 12:30:00',
+								'AuthAcquirerMerchant' => '1234',
+								'AuthAcquirerName' => 'Acquirer A',
+								'AuthAcquirerTerminal' => '1234',
+								'AuthAmount' => '200',
+								'AuthAmountTotal' => '2000',
+								'AuthCardNumber' => '9876********5432',
+								'AuthCode' => '246810',
+								'AuthCurrencyCode' => '135790',
+								'AuthCustomerData'=> 'Data to be printed on customer copy receipt',
+								'AuthECashBalance' => '300',
+								'AuthEmployeeCode' => 'A03',
+								'AuthEmployeeName' => 'Chan Tai Man',
+								'AuthEmployeeNameL1' => 'Chan Tai Man',
+								'AuthEmployeeNameL2' => '陳大文',
+								'AuthEmployeeNameL3' => '陈大文',
+								'AuthEmployeeNameL4' => 'Chan Tai Man',
+								'AuthEmployeeNameL5' => 'Chan Tai Man',
+								'AuthEmv' => '0',
+								'AuthEmvData' => 'ABCDEFG',
+								'AuthEntryMode' => 'insert',
+								'AuthIcCardSequence' => '1',
+								'AuthInvoiceNumber' => '987654321',
+								'AuthIssuer' => 'Wong Siu Ming',
+								'AuthIntlCardTraceNum' => '987654321',
+								'AuthMerchantData' => 'Data to be printed on merchant copy receipt.',
+								'AuthReferenceNumber' => '123456789',
+								'AuthSignFree' => 's',
+								'AuthSignFreeData' => 'A12345B678910',
+								'AuthSlipType' => 'm',
+								'AuthTerminalSequence' => '3',
+								'AuthTransactionDateTime' => '2016-03-30 12:30:00',
+								'AuthTraceNumber' => '123456789'
+							)
+					);
+		$vars['CardAuthorizations'] = $cardAuthorizations;
+		
+		// Tip Tracking
+		$TipTrackingToEmployees = array(
+						0 => array (
+								'TipTrackingToEmployee'				=> 'Chan Tai Man',
+								'TipTrackingToEmployeeL1'			=> 'Chan Tai Man',
+								'TipTrackingToEmployeeL2'			=> '陳大文',
+								'TipTrackingToEmployeeL3'			=> '陈大文',
+								'TipTrackingToEmployeeL4'			=> 'Chan Tai Man',
+								'TipTrackingToEmployeeL5'			=> 'Chan Tai Man',
+								'TipTrackingToEmployeeFirstName'	=> 'Tai Man',
+								'TipTrackingToEmployeeFirstNameL1'	=> 'Tai Man',
+								'TipTrackingToEmployeeFirstNameL2'	=> '大文',
+								'TipTrackingToEmployeeFirstNameL3'	=> '大文',
+								'TipTrackingToEmployeeFirstNameL4'	=> 'Tai Man',
+								'TipTrackingToEmployeeFirstNameL5'	=> 'Tai Man',
+								'TipTrackingToEmployeeLastName'		=> 'Chan',
+								'TipTrackingToEmployeeLastNameL1'	=> 'Chan',
+								'TipTrackingToEmployeeLastNameL2'	=> '陳',
+								'TipTrackingToEmployeeLastNameL3'	=> '陈',
+								'TipTrackingToEmployeeLastNameL4'	=> 'Chan',
+								'TipTrackingToEmployeeLastNameL5'	=> 'Chan',
+								'TipTrackingToEmployeeNumber'		=> 'A03',
+								'TipTrackingTipOutAmount'			=> 10,
+								'TipTrackingServiceChargeOutAmount'	=> 20,
+								'TipTrackingDirectTipOutAmount'		=> 5
+							)
+					);
+		$vars['TipTrackingToEmployees']				= $TipTrackingToEmployees;
+		$vars['TipTrackingFromEmployee']			= 'Mary Cheung';
+		$vars['TipTrackingFromEmployeeL1']			= 'Mary Cheung';
+		$vars['TipTrackingFromEmployeeL2']			= '張瑪莉';
+		$vars['TipTrackingFromEmployeeL3']			= '张玛莉';
+		$vars['TipTrackingFromEmployeeL4']			= 'Mary Cheung';
+		$vars['TipTrackingFromEmployeeL5']			= 'Mary Cheung';
+		$vars['TipTrackingFromEmployeeFirstName']	= 'Mary';
+		$vars['TipTrackingFromEmployeeFirstNameL1']	= 'Mary';
+		$vars['TipTrackingFromEmployeeFirstNameL2']	= '瑪莉';
+		$vars['TipTrackingFromEmployeeFirstNameL3']	= '玛莉';
+		$vars['TipTrackingFromEmployeeFirstNameL4']	= 'Mary';
+		$vars['TipTrackingFromEmployeeFirstNameL5']	= 'Mary';
+		$vars['TipTrackingFromEmployeeLastName']	= 'Cheung';
+		$vars['TipTrackingFromEmployeeLastNameL1']	= 'Cheung';
+		$vars['TipTrackingFromEmployeeLastNameL2']	= '張';
+		$vars['TipTrackingFromEmployeeLastNameL3']	= '张';
+		$vars['TipTrackingFromEmployeeLastNameL4']	= 'Cheung';
+		$vars['TipTrackingFromEmployeeLastNameL5']	= 'Cheung';
+		$vars['TipTrackingFromEmployeeNumber']		= 'A01';
+		$vars['TipTrackingTipBalance']				= 150;
+		$vars['TipTrackingServiceChargeBalance']	= 200;
+		$vars['TipTrackingDirectTipBalance']		= 85;
+	}
+?>
