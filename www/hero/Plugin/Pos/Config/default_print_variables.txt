@@ -1,0 +1,3761 @@
+[
+	{
+		"variable":"Address",
+		"name":"Address",
+		"name_chi":"地址",
+		"name_cn":"地址",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"AllReleasePaymentRunningNumber",
+		"name":"All Release Payment Running Number",
+		"name_chi":"所有取消付款流水號",
+		"name_cn":"所有取消付款流水号",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"AuthAcquirerData",
+		"name":"Authorization  Acquirer Data",
+		"name_chi":"授權收購者資料",
+		"name_cn":"授权收购者资料",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthAcquirerDatetime",
+		"name":"Authorization  Acquirer Datetime",
+		"name_chi":"授權收購者日期",
+		"name_cn":"授权收购者日期",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthAcquirerMerchant",
+		"name":"Authorization Acquirer Merchant",
+		"name_chi":"授權收購商",
+		"name_cn":"授权收购商",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthAcquirerName",
+		"name":"Authorization Acquirer Name",
+		"name_chi":"授權收購人姓名",
+		"name_cn":"授权收购人姓名",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthAcquirerTerminal",
+		"name":"Authorization Acquirer Terminal",
+		"name_chi":"授權收貨人終端",
+		"name_cn":"授权收货人终端",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthAmount",
+		"name":"Authorization Amount",
+		"name_chi":"授權金額",
+		"name_cn":"授权金额",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthAmountTotal",
+		"name":"Authorization Amount Total",
+		"name_chi":"授權金額總計",
+		"name_cn":"授权金额总计",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthCardNumber",
+		"name":"Authorization Card Number",
+		"name_chi":"授權卡號",
+		"name_cn":"授权卡号",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthCode",
+		"name":"Authorization Code",
+		"name_chi":"授權碼",
+		"name_cn":"授权码",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthCurrencyCode",
+		"name":"Authorization Currency Code",
+		"name_chi":"授權貨幣代碼",
+		"name_cn":"授权货币代码",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthCustomerData",
+		"name":"Authorization Customer Data",
+		"name_chi":"授權顧客數據",
+		"name_cn":"授权顾客数据",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthECashBalance",
+		"name":"Authorization E-Cash Balance",
+		"name_chi":"授權電子現金餘額",
+		"name_cn":"授权电子现金余额",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthEmployeeCode",
+		"name":"Authorization Employee Code",
+		"name_chi":"授權員工代碼",
+		"name_cn":"授权员工代码",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthEmployeeName",
+		"name":"Authorization Employee Name",
+		"name_chi":"授權員工姓名",
+		"name_cn":"授权员工姓名",
+		"remark":"",
+		"apply_to":"cra",
+		"multi_lang":1
+	},
+	{
+		"variable":"AuthEmployeeFirstName",
+		"name":"Authorization Employee First Name",
+		"name_chi":"授權員工名字",
+		"name_cn":"授权员工名字",
+		"remark":"",
+		"apply_to":"cra",
+		"multi_lang":1
+	},
+	{
+		"variable":"AuthEmployeeLastName",
+		"name":"Authorization Employee Last Name",
+		"name_chi":"授權員工姓氏",
+		"name_cn":"授权员工姓氏",
+		"remark":"",
+		"apply_to":"cra",
+		"multi_lang":1
+	},
+	{
+		"variable":"AuthEmv",
+		"name":"Authorization Emv",
+		"name_chi":"授權智能支付卡",
+		"name_cn":"授权智能支付卡",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthEmvData",
+		"name":"Authorization Emv Data",
+		"name_chi":"授權智能支付卡數據",
+		"name_cn":"授权智能支付卡数据",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthEntryMode",
+		"name":"Authorization Entry Mode",
+		"name_chi":"授權進入模式",
+		"name_cn":"授权进入模式",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthIcCardSequence",
+		"name":"Authorization IC Card Sequence",
+		"name_chi":"授權IC卡序列",
+		"name_cn":"授权IC卡序列",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthInvoiceNumber",
+		"name":"Authorization Invoice Number",
+		"name_chi":"授權發票編號",
+		"name_cn":"授权发票编号",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthIssuer",
+		"name":"Authorization Issuer",
+		"name_chi":"授權發行人",
+		"name_cn":"授权发行人",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthIntlCardTraceNum",
+		"name":"Authorization Intl Card Trace Number",
+		"name_chi":"授權國際卡追踪編號",
+		"name_cn":"授权国际卡追踪编号",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthMerchantData",
+		"name":"Authorization Merchant Data",
+		"name_chi":"授權貿易數據",
+		"name_cn":"授权顾贸易数据",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthReferenceNumber",
+		"name":"Authorization Reference Number",
+		"name_chi":"授權參考編號",
+		"name_cn":"授权参考编号",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthSignFree",
+		"name":"Authorization Signature Free",
+		"name_chi":"授權簽名免費",
+		"name_cn":"授权签名免费",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthSignFreeData",
+		"name":"Authorization Signature Free Data",
+		"name_chi":"授權簽名免費數據",
+		"name_cn":"授权签名免费数据",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthSlipType",
+		"name":"Authorization Slip Type",
+		"name_chi":"授權單據類型",
+		"name_cn":"授权单据类型",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthTerminalSequence",
+		"name":"Authorization Terminal Sequence",
+		"name_chi":"授權終端序列",
+		"name_cn":"授权终端序列",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthTips",
+		"name":"Authorization Tips",
+		"name_chi":"授權提示",
+		"name_cn":"授权提示",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthTransactionDateTime",
+		"name":"Authorization Transaction DateTime",
+		"name_chi":"授權交易日期時間",
+		"name_cn":"授权交易日期时间",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"AuthTraceNumber",
+		"name":"Authorization Trace Number",
+		"name_chi":"授權跟踪號碼",
+		"name_cn":"授权跟踪号码",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"BonusCode",
+		"name":"Bonus Code",
+		"name_chi":"優惠碼",
+		"name_cn":"优惠码",
+		"remark":"",
+		"apply_to":"cr",
+		"count":10
+	},
+	{
+		"variable":"AwardAmount",
+		"name":"Amount",
+		"name_chi":"金額",
+		"name_cn":"金额",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"AwardList",
+		"name":"Award List",
+		"name_chi":"積分兌換表",
+		"name_cn":"积分兑换表",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"AwardPoints",
+		"name":"Points",
+		"name_chi":"積分",
+		"name_cn":"积分",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"BusinessDate",
+		"name":"Business Date",
+		"name_chi":"工作日期",
+		"name_cn":"工作日期",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CategoryId",
+		"name":"Category ID",
+		"name_chi":"類別識別碼",
+		"name_cn":"类别标识符",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CategoryName",
+		"name":"Category Name",
+		"name_chi":"類別名稱",
+		"name_cn":"类别名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"CategoryTotal",
+		"name":"Category Total",
+		"name_chi":"類別總計",
+		"name_cn":"类别总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"Changes",
+		"name":"Changes",
+		"name_chi":"找續",
+		"name_cn":"找续",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"CheckAdvanceOrder",
+		"name":"Check Advance Order",
+		"name_chi":"預訂單據",
+		"name_cn":"预订单据",
+		"remark":"1 : Advance Order Check, 0 : Non-Advance Order Check",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckCallNumber",
+		"name":"Check Call Number",
+		"name_chi":"帳單叫號",
+		"name_cn":"帐单叫号",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckCloseDate",
+		"name":"Close Check Date",
+		"name_chi":"結帳日期",
+		"name_cn":"结帐日期",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"CheckCloseTime",
+		"name":"Close Check Time",
+		"name_chi":"結帳時間",
+		"name_cn":"结帐时间",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"CheckCloseEmployee",
+		"name":"Close Check Employee",
+		"name_chi":"結帳員工",
+		"name_cn":"结帐员工",
+		"remark":"",
+		"apply_to":"r",
+		"multi_lang":1
+	},
+	{
+		"variable":"CheckCloseEmployeeFirstName",
+		"name":"Close Check Employee First Name",
+		"name_chi":"結帳員工名字",
+		"name_cn":"结帐员工名字",
+		"remark":"",
+		"apply_to":"r",
+		"multi_lang":1
+	},
+	{
+		"variable":"CheckCloseEmployeeLastName",
+		"name":"Close Check Employee Last Name",
+		"name_chi":"結帳員工姓氏",
+		"name_cn":"结帐员工姓氏",
+		"remark":"",
+		"apply_to":"r",
+		"multi_lang":1
+	},
+	{
+		"variable":"CheckCurrentPaidPaymentTotal",
+		"name":"Check Current Paid Payment Total",
+		"name_chi":"帳單當前付款金額",
+		"name_cn":"帐单当前付款金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"CheckDefaultPaymentTotal",
+		"name":"Check Default Payment Total",
+		"name_chi":"帳單默認付款總計",
+		"name_cn":"帐单默认付款总计",
+		"remark":"",
+		"apply_to":"c"
+	},
+	{
+		"variable":"CheckDepositAmount",
+		"name":"Check Deposit Amount",
+		"name_chi":"帳單存款金額",
+		"name_cn":"帐单存款金额",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckDiscountTotal",
+		"name":"Check Discount Total",
+		"name_chi":"帳單折扣總計",
+		"name_cn":"帐单折扣总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckExtraChargeTotal",
+		"name":"Check Extra Charge Total",
+		"name_chi":"帳單額外收費總計",
+		"name_cn":"帐单额外收费总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGamingIntfAccountNumber",
+		"name":"Check Gaming Interface Account Number",
+		"name_chi":"賭博介面帳單帳戶名稱",
+		"name_cn":"赌博接口帐单帐户名称",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGamingIntfCardType",
+		"name":"Check Gaming Interface Card Type",
+		"name_chi":"賭博介面帳單卡種類",
+		"name_cn":"赌博接口帐单卡种类",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGamingIntfDiscountRate",
+		"name":"Check Gaming Interface Discount Rate",
+		"name_chi":"賭博介面帳單卡折扣率",
+		"name_cn":"赌博接口帐单卡折扣率",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGamingIntfInputMethod",
+		"name":"Check Gaming Interface Input Method",
+		"name_chi":"附屬於帳單上的(賭博接口)會員號碼輸入方法",
+		"name_cn":"附屬於帳單上的(賭博接口)会员號碼输入方法",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGamingIntfMemberCardNumber",
+		"name":"Check Attached (Gaming Interface) Member Card Number",
+		"name_chi":"附屬於帳單上的(賭博接口)會員卡號碼",
+		"name_cn":"附属于帐单上的(赌博接口)会员卡号码",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckGamingIntfMemberFirstName",
+		"name":"Check Gaming Interface Member First Name",
+		"name_chi":"賭博介面帳單卡名字",
+		"name_cn":"赌博接口帐单卡名字",
+		"remark":"",
+		"apply_to":"cr"
+	},
+ 	{
+		"variable":"CheckGamingIntfMemberLastName",
+		"name":"Check Gaming Interface Member Last Name",
+		"name_chi":"賭博介面帳單卡姓氏",
+		"name_cn":"赌博接口帐单卡姓氏",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGamingIntfMemberName",
+		"name":"Check Attached (Gaming Interface) Member Name",
+		"name_chi":"附屬於帳單上的(賭博接口)會員名稱",
+		"name_cn":"附属于帐单上的(赌博接口)会员名称",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGamingIntfMemberNumber",
+		"name":"Check Attached (Gaming Interface) Member Number",
+		"name_chi":"附屬於帳單上的(賭博接口)會員號碼",
+		"name_cn":"附属于帐单上的(赌博接口)会员号码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGamingIntfPointBalance",
+		"name":"Check Attached (Gaming Interface) Point Balance",
+		"name_chi":"附屬於帳單上的(賭博接口)會員積分總值",
+		"name_cn":"附属于帐单上的(赌博接口)会员积分总值",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGamingIntfPointDepartment",
+		"name":"Check Attached (Gaming Interface) Department Point",
+		"name_chi":"附屬於帳單上的(賭博接口)會員營業區分數",
+		"name_cn":"附属于帐单上的(赌博接口)会员营业区分数",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGuests",
+		"name":"Check Guests",
+		"name_chi":"帳單人數",
+		"name_cn":"帐单人数",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckGuestFax",
+		"name":"Check Guest Fax",
+		"name_chi":"帳單客人傳真",
+		"name_cn":"帐单客人傳真",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGuestName",
+		"name":"Check Guest Name",
+		"name_chi":"帳單客人名稱",
+		"name_cn":"帐单客人名称",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckGuestNote",
+		"name":"Check Guest Note",
+		"name_chi":"帳單客人註釋",
+		"name_cn":"帐单客人註釋",
+		"remark":"",
+		"apply_to":"cr",
+		"count":2
+	},
+	{
+		"variable":"CheckGuestPhone",
+		"name":"Check Guest Phone",
+		"name_chi":"帳單客人電話",
+		"name_cn":"帐单客人电话",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckInfo",
+		"name":"Check Information",
+		"name_chi":"單據資料",
+		"name_cn":"单据资料",
+		"remark":"",
+		"apply_to":"crk",
+		"count":5
+	},
+	{
+		"variable":"CheckIsPaid",
+		"name":"Check Is Paid",
+		"name_chi":"帳單付費狀態",
+		"name_cn":"帐单付费状态",
+		"remark":"1: Check is settled<br>0: Check is not settle",
+		"apply_to":"r"
+	},
+	{
+		"variable":"CheckItemDiscountTotal",
+		"name":"Check item Discount Total",
+		"name_chi":"帳單菜式折扣總計",
+		"name_cn":"帐单菜式折扣总计",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckItemGrossTotal",
+		"name":"Item Gross Total (Without Discount)",
+		"name_chi":"菜式總計 (未減折扣)",
+		"name_cn":"菜式总计 (未减折扣)",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckItemTotal",
+		"name":"Item Net Total (With Discount)",
+		"name_chi":"菜式淨總計 (已減折扣)",
+		"name_cn":"菜式净总计 (已减折扣)",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckItemTotalUseItemOriPrice",
+		"name":"Item Total (Using Item Original Price to Calculate)",
+		"name_chi":"菜式總計 (用菜式原價格計算)",
+		"name_cn":"菜式总计 (用菜式原价格计算)",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckItemTotalWithTax",
+		"name":"Item Total (With Tax)",
+		"name_chi":"菜式總計 (已含稅的菜式)",
+		"name_cn":"菜式总计 (已含税的菜式)",
+		"remark":"",
+		"apply_to":"cr",
+		"count":25
+	},
+	{
+		"variable":"CheckLastReleasePaymentTotal",
+		"name":"Check Last Release Payment Total",
+		"name_chi":"帳單上一次取消付款總計",
+		"name_cn":"帐单上一次取消付款总计",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"CheckLoyaltyBalanceExpireNextMonth",
+		"name":"Loyalty Point Balance Expire In Next Month",
+		"name_chi":"Loyalty會員下個月過期的積分",
+		"name_cn":"Loyalty会员下个月过期的积分",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"CheckLoyaltyBalanceExpireThisMonth",
+		"name":"Loyalty Point Balance Expire In This Month",
+		"name_chi":"Loyalty會員本月過期的積分",
+		"name_cn":"Loyalty会员本月过期的积分",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"CheckLoyaltyCardBalance",
+		"name":"Loyalty Card Balance",
+		"name_chi":"Loyalty會員卡餘額",
+		"name_cn":"Loyalty会员卡余额",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"CheckLoyaltyCardNumber",
+		"name":"Loyalty Card Number",
+		"name_chi":"Loyalty會員卡編號",
+		"name_cn":"Loyalty会员卡编号",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"CheckLoyaltyMemberName",
+		"name":"Loyalty Member Name",
+		"name_chi":"Loyalty會員名稱",
+		"name_cn":"Loyalty会员名称",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"CheckLoyaltyMemberNumber",
+		"name":"Loyalty Member Number",
+		"name_chi":"Loyalty會員編號",
+		"name_cn":"Loyalty会员编号",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"CheckLoyaltyPointBalance",
+		"name":"Loyalty Point Balance",
+		"name_chi":"Loyalty會員積分餘額",
+		"name_cn":"Loyalty会员积分余额",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"CheckLoyaltyPointEarn",
+		"name":"Loyalty Point Earned",
+		"name_chi":"Loyalty會員賺取積分",
+		"name_cn":"Loyalty会员赚取积分",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckLoyaltyPointExpiryDate",
+		"name":"Loyalty Point Expiry Date",
+		"name_chi":"Loyalty會員積分到期日",
+		"name_cn":"Loyalty会员积分到期日",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckLoyaltyPointRedeem",
+		"name":"Loyalty Point Redeem",
+		"name_chi":"Loyalty會員已兌換積分",
+		"name_cn":"忠诚会员已兑换积分",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckLoyaltyTopUpAmount",
+		"name":"Loyalty Top Up Amount",
+		"name_chi":"Loyalty會員增值金額",
+		"name_cn":"忠诚会员增值金额",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"CheckLoyaltyTopUpRefId",
+		"name":"Loyalty Top Up Reference ID",
+		"name_chi":"Loyalty會員增值參考ID",
+		"name_cn":"忠诚会员增值参考ID",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"CheckLoyaltyTopUpTransDate",
+		"name":"Loyalty Top Up Transaction Date",
+		"name_chi":"Loyalty會員增值交易日期",
+		"name_cn":"忠诚会员增值交易日期",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"CheckMealPeriodName",
+		"name":"Check Meal Period Name",
+		"name_chi":"開單時段名稱",
+		"name_cn":"开单时段名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"CheckMealShortPeriodName",
+		"name":"Check Meal Short Period Name",
+		"name_chi":"開單時段短名稱",
+		"name_cn":"开单时段短名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"CheckMemberDisplayName",
+		"name":"Check Member Display Name",
+		"name_chi":"帳單會員顯示名稱",
+		"name_cn":"帐单会员显示名称",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckMemberName",
+		"name":"Check Member Name",
+		"name_chi":"帳單會員名稱",
+		"name_cn":"帐单会员名称",
+		"remark":"",
+		"apply_to":"cr",
+		"count":2
+	},
+	{
+		"variable":"CheckMemberNum",
+		"name":"Check Member Number",
+		"name_chi":"帳單會員編號",
+		"name_cn":"帐单会员编号",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckMemberSpending",
+		"name":"Check Member Spending Total",
+		"name_chi":"帳單會員總開銷",
+		"name_cn":"帐单会员总开销",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckMembershipIntfAccountName",
+		"name":"Check Attached (Membership Interface) Account Name",
+		"name_chi":"附屬於帳單上的(會員接口)帳戶名稱",
+		"name_cn":"附属于帐单上的(会员接口)帐户号码名称",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfAccountNumber",
+		"name":"Check Attached (Membership Interface) Account Number",
+		"name_chi":"附屬於帳單上的(會員接口)帳戶號碼",
+		"name_cn":"附属于帐单上的(会员接口)帐户号码",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfAmountForEarnPoint",
+		"name":"Check Attached (Membership Interface) Amount For Earn Point",
+		"name_chi":"附屬於帳單上(會員接口)赚取積分的金額",
+		"name_cn":"附属于帐单上(会员接口)赚取积分的金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"CheckMembershipIntfAmountToUse",
+		"name":"Check Attached (Membership Interface) Amount To Use",
+		"name_chi":"附屬於帳單上的(會員接口)使用金額",
+		"name_cn":"附属于帐单上的(会员接口)使用金额",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfAttachedAtPayment",
+		"name":"Membership Interface's Member Attached At Payment",
+		"name_chi":"會員(會員接口)附屬於帳單付款上",
+		"name_cn":"会员(会员接口)附属于帐单付款上",
+		"remark":"1 : Member Attached at Payment, 0 : No Member Attached at Payment",
+		"apply_to":"r"
+	},
+	{
+		"variable":"CheckMembershipIntfCardNumber",
+		"name":"Check Attached (Membership Interface) Card Number",
+		"name_chi":"附屬於帳單上的(會員接口)卡號碼",
+		"name_cn":"附属于帐单上的(会员接口)卡号码",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckMembershipIntfEventOrderNumberForAdd",
+		"name":"Check Membership Interface Event Order Number For Add",
+		"name_chi":"附屬於帳單上的(會員接口)添加訂金訂單號",
+		"name_cn":"附属于帐单上的(会员接口)添加订金订单号",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckMembershipIntfEventOrderDepositBalance",
+		"name":"Check Membership Interface Event Order Deposit Balance",
+		"name_chi":"附屬於帳單上的(會員接口)訂金金額總值",
+		"name_cn":"附属于帐单上的(会员接口)订金金额总值",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckMembershipIntfEventOrderDepositForAdd",
+		"name":"Check Membership Interface Event Order Deposit For Add",
+		"name_chi":"附屬於帳單上的(會員接口)添加訂金金額",
+		"name_cn":"附属于帐单上的(会员接口)添加订金金额",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckMembershipIntfEventOrderNumberForUse",
+		"name":"Check Membership Interface Event Order Number For Use",
+		"name_chi":"附屬於帳單上的(會員接口)使用訂金訂單號",
+		"name_cn":"附属于帐单上的(会员接口)使用订金订单号",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckMembershipIntfEventOrderDepositForUse",
+		"name":"Check Membership Interface Event Order Deposit For Use",
+		"name_chi":"附屬於帳單上的(會員接口)使用訂金金額",
+		"name_cn":"附属于帐单上的(会员接口)使用订金金额",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckMembershipIntfExpiryDate",
+		"name":"Check Membership Interface Expiry Date",
+		"name_chi":"附屬於帳單上的(會員接口)到期日",
+		"name_cn":"附属于帐单上的(会员接口)到期日",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfLocalBalance",
+		"name":"Check Attached (Membership Interface) Local Balance",
+		"name_chi":"附屬於帳單上的(會員接口)當地分數",
+		"name_cn":"附属于帐单上的(会员接口)当地分数",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfMaxRedemptionAmount",
+		"name":"Check Attached (Membership Interface) Max Redemption Amount",
+		"name_chi":"附屬於帳單上的(會員接口)最大兌換數值",
+		"name_cn":"附属于帐单上的(会员接口)最大兑换数值",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfMaxRedemptionPoints",
+		"name":"Check Attached (Membership Interface) Max Redemption Points",
+		"name_chi":"附屬於帳單上的(會員接口)最大兌換積分",
+		"name_cn":"附属于帐单上的(会员接口)最大兑换积分",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfMemberInfo",
+		"name":"Check Membership Interface Member Information",
+		"name_chi":"附屬於帳單上的(會員接口)會員資料",
+		"name_cn":"附属于帐单上的(会员接口)会员资料",
+		"remark":"",
+		"apply_to":"cr",
+		"count":8
+	},
+	{
+		"variable":"CheckMembershipIntfMemberNumber",
+		"name":"Check Attached (Membership Interface) Member Number",
+		"name_chi":"附屬於帳單上的(會員接口)會員號碼",
+		"name_cn":"附属于帐单上的(会员接口)会员号码",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfMemberOtherName",
+		"name":"Check Attached (Membership Interface) Member Other Name",
+		"name_chi":"附屬於帳單上的(會員接口)中文名字",
+		"name_cn":"附属于帐单上的(会员接口)中文名字",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfMemberRef",
+		"name":"Check Membership Interface Member Reference",
+		"name_chi":"附屬於帳單上的(會員接口)會員參考",
+		"name_cn":"附属于帐单上的(会员接口)会员参考",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"CheckMembershipIntfMemberSurname",
+		"name":"Check Attached (Membership Interface) Member Surname",
+		"name_chi":"附屬於帳單上的(會員接口)會員姓氏",
+		"name_cn":"附属于帐单上的(会员接口)会员姓氏",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfMemberType",
+		"name":"Check Attached (Membership Interface) Member Type",
+		"name_chi":"附屬於帳單上的(會員接口)會員種類",
+		"name_cn":"附属于帐单上的(会员接口)会员种类",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfNoRedemption",
+		"name":"Check Attached (Membership Interface) No Redemption",
+		"name_chi":"附屬於帳單上的(會員接口)不使用積分",
+		"name_cn":"附属于帐单上的(会员接口)不使用积分",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckMembershipIntfNric",
+		"name":"Check Attached (Membership Interface) NRIC Number",
+		"name_chi":"附屬於帳單上的(會員接口)NRIC號碼",
+		"name_cn":"附属于帐单上的(会员接口)NRIC号码",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckMembershipIntfOriginalPoints",
+		"name":"Check Attached (Membership Interface) Original Points",
+		"name_chi":"附屬於帳單上的(會員接口)原有分數",
+		"name_cn":"附属于帐单上的(会员接口)原有分数",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfPointsAvailable",
+		"name":"Check Attached (Membership Interface) Points Available",
+		"name_chi":"附屬於帳單上的(會員接口)可用積分",
+		"name_cn":"附属于帐单上的(会员接口)可用积分",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfPointBalance",
+		"name":"Check Attached (Membership Interface) Point Balance",
+		"name_chi":"附屬於帳單上的(會員接口)分數",
+		"name_cn":"附属于帐单上的(会员接口)分数",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfPointEarn",
+		"name":"Check Attached (Membership Interface) Point Earn",
+		"name_chi":"附屬於帳單上的(會員接口)所得分數",
+		"name_cn":"附属于帐单上的(会员接口)所得分数",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckMembershipIntfPointsToUse",
+		"name":"Check Attached (Membership Interface) Points To Use",
+		"name_chi":"附屬於帳單上的(會員接口)已使用積分",
+		"name_cn":"附属于帐单上的(会员接口)已使用积分",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfPostedAmountUse",
+		"name":"Check Attached (Membership Interface) Posted Amount Use",
+		"name_chi":"附屬於帳單上的(會員接口)已使用金額",
+		"name_cn":"附属于帐单上的(会员接口)已使用金额",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfPostedPointsUse",
+		"name":"Check Attached (Membership Interface) Posted Points Use",
+		"name_chi":"附屬於帳單上的(會員接口)已使用分數",
+		"name_cn":"附属于帐单上的(会员接口)已使用分数",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfRefundAmount",
+		"name":"Check Attached (Membership Interface) Refund Amount",
+		"name_chi":"附屬於帳單上的(會員接口)退還金額",
+		"name_cn":"附属于帐单上的(会员接口)退还金额",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfRefundPoints",
+		"name":"Check Attached (Membership Interface) Refund Points",
+		"name_chi":"附屬於帳單上的(會員接口)退款積分",
+		"name_cn":"附属于帐单上的(会员接口)退款积分",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckMembershipIntfVoucherValue",
+		"name":"Check Attached (Membership Interface) Voucher Value",
+		"name_chi":"附屬於帳單上的(會員接口)優惠卷價值",
+		"name_cn":"附属于帐单上的(会员接口)优惠卷价值",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckMembershipIntfStoreValueBalance",
+		"name":"Check Attached (Membership Interface) Store Value Balance",
+		"name_chi":"附屬於帳單上的(會員接口)儲值分數",
+		"name_cn":"附属于帐单上的(会员接口)储值分数",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"CheckMembershipIntfTotalPointsBalance",
+		"name":"Check Attached (Membership Interface) Total Points Balance",
+		"name_chi":"附屬於帳單上的(會員接口)總積分",
+		"name_cn":"附属于帐单上的(会员接口)总积分",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckNumber",
+		"name":"Check Number",
+		"name_chi":"帳單號碼",
+		"name_cn":"帐单号码",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckNonRevenue",
+		"name":"Check Non-Revenue",
+		"name_chi":"帳單非收入",
+		"name_cn":"帐单非收入",
+		"remark":"1 : Non-Revenue Check, 0 : Revenue Check",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckOpenDate",
+		"name":"Open Check Date",
+		"name_chi":"開單日期",
+		"name_cn":"开单日期",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckOpenTime",
+		"name":"Open Check Time",
+		"name_chi":"開單時間",
+		"name_cn":"开单时间",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckOpenEmployee",
+		"name":"Open Check Employee",
+		"name_chi":"開單員工",
+		"name_cn":"开单员工",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"CheckOpenEmployeeFirstName",
+		"name":"Open Check Employee First Name",
+		"name_chi":"開單員工名字",
+		"name_cn":"开单员工名字",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"CheckOpenEmployeeLastName",
+		"name":"Open Check Employee Last Name",
+		"name_chi":"開單員工姓氏",
+		"name_cn":"开单员工姓氏",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"CheckOrderMode",
+		"name":"Check Order Mode",
+		"name_chi":"帳單落單模式",
+		"name_cn":"帐单落单模式",
+		"remark":"Empty : Fine Dining Mode, f : Fast Food Mode, k : Self-Order Kiosk Mode",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckOwnerEmployee",
+		"name":"Check Owner Employee Name",
+		"name_chi":"帳單擁有者名稱",
+		"name_cn":"帐单拥有者名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"CheckOwnerEmployeeFirstName",
+		"name":"Check Owner Employee First Name",
+		"name_chi":"帳單擁有者名字",
+		"name_cn":"帐单拥有者名字",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"CheckOwnerEmployeeLastName",
+		"name":"Check Owner Employee Last Name",
+		"name_chi":"帳單擁有者姓氏",
+		"name_cn":"帐单拥有者姓氏",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"CheckPickupDate",
+		"name":"Check Pickup Date",
+		"name_chi":"帳單提貨日期",
+		"name_cn":"帐单提货日期",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckPmsIntfRoomGuestName",
+		"name":"Check PMS Interface Room Guest Name",
+		"name_chi":"帳單PMS接口房間客人名稱",
+		"name_cn":"帐单PMS接口房间客人名称",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckPmsIntfRoomNumber",
+		"name":"Check PMS Interface Room Number",
+		"name_chi":"帳單PMS接口房間號碼",
+		"name_cn":"帳單PMS接口房間號碼",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckPreviousPaidPaymentTotal",
+		"name":"Check Previous Paid Payment Total",
+		"name_chi":"帳單已付總金額",
+		"name_cn":"帐单已付总金额",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckReferenceNumber",
+		"name":"Check Reference Number",
+		"name_chi":"帳單參考號碼",
+		"name_cn":"帐单参考号码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckReleasePaymentCount",
+		"name":"Check Release Payment Count",
+		"name_chi":"帳單取消付款次數",
+		"name_cn":"帐单取消付款次数",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"CheckRoundTotal",
+		"name":"Check Round Total",
+		"name_chi":"帳單捨入總計",
+		"name_cn":"帐单舍入总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckSurchargeTotal",
+		"name":"Check Surcharge Total",
+		"name_chi":"帳單附加費總計",
+		"name_cn":"帐单附加费总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckTakeout",
+		"name":"Check Takeout",
+		"name_chi":"帳單外賣",
+		"name_cn":"帐单外卖",
+		"remark":"1 : Takeout, 0 : Normal",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckTitle",
+		"name":"Check Title",
+		"name_chi":"帳單標題",
+		"name_cn":"帐单标题",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckTotal",
+		"name":"Check Total",
+		"name_chi":"帳單總計",
+		"name_cn":"帐单总计",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"CheckTargetOutletCode",
+		"name":"Target Outlet Code",
+		"name_chi":"目標營業區編號",
+		"name_cn":"目标营业区编号",
+		"remark":"",
+		"apply_to":"k"
+	},
+	{
+		"variable":"CheckTargetOutletName",
+		"name":"Target Outlet Name",
+		"name_chi":"目標營業區名稱",
+		"name_cn":"目标营业区名称",
+		"remark":"",
+		"apply_to":"k"
+	},
+	{
+		"variable":"CheckUnpaidPaymentTotal",
+		"name":"Check Unpaid Payment Total",
+		"name_chi":"帳單未付款金額",
+		"name_cn":"帐单未付款金额",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckVoided",
+		"name":"Voided Check",
+		"name_chi":"已取消帳單",
+		"name_cn":"已取消帐单",
+		"remark":"1 : Voided, 0 : Active",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"CheckVoidedReason",
+		"name":"Voided Check Reason",
+		"name_chi":"取消帳單原因",
+		"name_cn":"取消帐单原因",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ChildItemCallNumber",
+		"name":"Child Item Call Number",
+		"name_chi":"子菜式叫號",
+		"name_cn":"子菜式叫号",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ChildItemName",
+		"name":"Child Item Name",
+		"name_chi":"子菜式名稱",
+		"name_cn":"子菜式名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"ChildItemPrice",
+		"name":"Child Item Price",
+		"name_chi":"子菜式價格",
+		"name_cn":"子菜式价格",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ChildItemQuantity",
+		"name":"Child Item Quantity",
+		"name_chi":"子菜式數量",
+		"name_cn":"子菜式数量",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ChildItemSequence",
+		"name":"Item Sequence",
+		"name_chi":"子菜式次序",
+		"name_cn":"子菜式次序",
+		"remark":"",
+		"apply_to":"k"
+	},
+	{
+		"variable":"ChildItemShortName",
+		"name":"Child Item Short Name",
+		"name_chi":"子菜式短名稱",
+		"name_cn":"子菜式短名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"ChildItemTakeout",
+		"name":"Takeout Child Item",
+		"name_chi":"外賣子菜式",
+		"name_cn":"外卖子菜式",
+		"remark":"1 : Takeout, 0 : Normal",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ContinuousPrintLineNumber",
+		"name":"Continuous Print Line Number",
+		"name_chi":"連續打印行號",
+		"name_cn":"连续打印行号",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ContinuousPrintPageNumber",
+		"name":"Continuous Print Page Number",
+		"name_chi":"連續打印頁碼",
+		"name_cn":"连续打印页码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DefaultPaymentAmount",
+		"name":"Default Payment Amount",
+		"name_chi":"默認付款金額",
+		"name_cn":"默认付款金额",
+		"remark":"",
+		"apply_to":"c"
+	},
+	{
+		"variable":"DefaultPaymentName",
+		"name":"Default Payment Name",
+		"name_chi":"默認付款名稱",
+		"name_cn":"默认付款名称",
+		"remark":"",
+		"apply_to":"c",
+		"multi_lang":1
+	},
+		{
+		"variable":"DepartmentEligibleForEarnPoint",
+		"name":"Department Eligible For Earn Point",
+		"name_chi":"合資格積分賺取部門",
+		"name_cn":"合资格积分赚取部门",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DepartmentEligibleForPointRedemption",
+		"name":"Department Eligible For Point Redemption",
+		"name_chi":"合資格積分兌換部門",
+		"name_cn":"合资格积分兑换部门",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DepartmentId",
+		"name":"Department ID",
+		"name_chi":"部門識別碼",
+		"name_cn":"部门标识符",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DepartmentName",
+		"name":"Department Name",
+		"name_chi":"部門名稱",
+		"name_cn":"部门名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"DepartmentTotal",
+		"name":"Department Total",
+		"name_chi":"部門總計",
+		"name_cn":"部门总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DiscountAmount",
+		"name":"Discount Amount",
+		"name_chi":"折扣金額",
+		"name_cn":"折扣金额",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DiscountAppliedEmployee",
+		"name":"Discount Employee",
+		"name_chi":"折扣員工",
+		"name_cn":"折扣员工",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"DiscountAppliedEmployeeFirstName",
+		"name":"Discount Employee First Name",
+		"name_chi":"折扣員工名字",
+		"name_cn":"折扣员工名字",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+		{
+		"variable":"DiscountAppliedEmployeeLastName",
+		"name":"Discount Employee Last Name",
+		"name_chi":"折扣員工姓氏",
+		"name_cn":"折扣员工姓氏",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"DiscountCode",
+		"name":"Discount Code",
+		"name_chi":"折扣號碼",
+		"name_cn":"折扣号码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DiscountForTax",
+		"name":"Discount For Tax",
+		"name_chi":"稅項中的折扣",
+		"name_cn":"税项中的折扣",
+		"remark":"(Discount on tax1~25 for Malaysia)",
+		"apply_to":"cr",
+		"count":25
+	},
+	{
+		"variable":"DiscountForTaxTotal",
+		"name":"Discount For Tax Total",
+		"name_chi":"稅總計中的折扣",
+		"name_cn":"税项总计中的折扣",
+		"remark":"(Discount on tax total for Malaysia)",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DiscountMemberExpiryDate",
+		"name":"Discount Member Expiry Date",
+		"name_chi":"折扣中會員的到期日",
+		"name_cn":"折扣中会员的到期日",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DiscountMemberNumber",
+		"name":"Member Number",
+		"name_chi":"會員號碼",
+		"name_cn":"会员号码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DiscountMembershipIntfPointUsed",
+		"name":"Membership Discount Point Used",
+		"name_chi":"會員接口折扣用過的分數",
+		"name_cn":"会员接口折扣用过的分数",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DiscountMembershipIntfVoucherNumbers",
+		"name":"Membership Discount Voucher Number",
+		"name_chi":"會員接口折扣優惠卷號碼",
+		"name_cn":"会员接口折扣优惠卷号码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DiscountName",
+		"name":"Discount Name",
+		"name_chi":"折扣名稱",
+		"name_cn":"折扣名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"DiscountOnSc",
+		"name":"Discount On Sc",
+		"name_chi":"服務費項中的折扣",
+		"name_cn":"务费项中的折扣",
+		"remark":"",
+		"apply_to":"cr",
+		"count":5
+	},
+	{
+		"variable":"DiscountOnScTotal",
+		"name":"Discount On Sc Total",
+		"name_chi":"服務費總計中的折扣",
+		"name_cn":"服務費總計中的折扣",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DiscountOnTax",
+		"name":"Discount On Tax",
+		"name_chi":"稅項中的折扣",
+		"name_cn":"税项中的折扣",
+		"remark":"",
+		"apply_to":"cr",
+		"count":25
+	},
+	{
+		"variable":"DiscountOnTaxTotal",
+		"name":"Discount On Tax Total",
+		"name_chi":"稅總計中的折扣",
+		"name_cn":"税项总计中的折扣",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DiscountReference",
+		"name":"Discount Reference",
+		"name_chi":"折扣參考名稱",
+		"name_cn":"折扣参考名称",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DiscountTotal",
+		"name":"Discount Total",
+		"name_chi":"折扣總計",
+		"name_cn":"折扣总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"DollarSign",
+		"name":"Dollar Sign",
+		"name_chi":"貨幣符號",
+		"name_cn":"货币符号",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"ExtraChargeAmount",
+		"name":"Extra Charge Amount",
+		"name_chi":"額外收費金額",
+		"name_cn":"额外收费金额",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ExtraChargeAppliedEmployee",
+		"name":"Extra Charge Applied Employee",
+		"name_chi":"額外收費員工",
+		"name_cn":"额外收费员工",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{	
+		"variable": "ExtraChargeAppliedEmployeeFirstName",
+		"name": "Extra Charge Applied Employee First Name",
+		"name_chi": "額外收費員工名字",
+		"name_cn": "额外收费员工名字",
+		"remark": "",
+		"apply_to": "cr",
+		"multi_lang": 1
+	},
+	{
+		"variable": "ExtraChargeAppliedEmployeeLastName",
+		"name": "Extra Charge Applied Employee Last Name",
+		"name_chi": "額外收費員工姓氏",
+		"name_cn": "额外收费员工姓氏",
+		"remark": "",
+		"apply_to": "cr",
+		"multi_lang": 1
+	},
+	{
+		"variable":"ExtraChargeCode",
+		"name":"Extra Charge Code",
+		"name_chi":"額外收費號碼",
+		"name_cn":"额外收费号码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ExtraChargeName",
+		"name":"Extra Charge Name",
+		"name_chi":"額外收費名稱",
+		"name_cn":"额外收费名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"ExtraChargeMemberNumber",
+		"name":"Extra Charge Member Number",
+		"name_chi":"額外收費會員號碼",
+		"name_cn":"额外收费会员号码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ExtraChargeMembershipIntfVoucherNumbers",
+		"name":"Membership Extra Charge Voucher Number",
+		"name_chi":"會員接口額外收費優惠卷號碼",
+		"name_cn":"会员接口额外收费优惠卷号码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ExtraChargeReference",
+		"name":"Extra Charge Reference",
+		"name_chi":"額外收費參考名稱",
+		"name_cn":"额外收费参考名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"Fax",
+		"name":"Fax",
+		"name_chi":"傳真",
+		"name_cn":"传真",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"GratuityEligibleForEarnPoint",
+		"name":"Gratuity Eligible For Earn Point",
+		"name_chi":"合資格積分賺取賞錢",
+		"name_cn":"合资格积分赚取赏钱",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"GratuityEligibleForPointRedemption",
+		"name":"Gratuity Eligible For Point Redemption",
+		"name_chi":"合資格積分兌換賞錢",
+		"name_cn":"合资格积分兑换赏钱",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"GratuityName",
+		"name":"Gratuity Name",
+		"name_chi":"賞錢名稱",
+		"name_cn":"赏钱名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"GratuityAmount",
+		"name":"Gratuity Amount",
+		"name_chi":"賞錢金額",
+		"name_cn":"赏钱金额",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"GratuityTotal",
+		"name":"GratuityTotal",
+		"name_chi":"賞錢總計",
+		"name_cn":"赏钱总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"Greeting",
+		"name":"Greeting",
+		"name_chi":"歡迎辭",
+		"name_cn":"欢迎辞",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"GUIBarcode",
+		"name":"TaiWan GUI Barcode",
+		"name_chi":"台灣發票一維式條碼",
+		"name_cn":"台湾发票一维式条码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUICarrierId",
+		"name":"Taiwan GUI Carrier ID",
+		"name_chi":"台灣發票載具識別碼",
+		"name_cn":"台湾发票载具标识符",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUILeftQRCode",
+		"name":"TaiWan GUI Left QR Code",
+		"name_chi":"台灣發票二維式條碼-左",
+		"name_cn":"台湾发票二维式条码-左",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUIMonthPeriod",
+		"name":"TaiWan GUI Month Period",
+		"name_chi":"台灣發票期間",
+		"name_cn":"台湾发票期间",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUIRightQRCode",
+		"name":"TaiWan GUI Right QR Code",
+		"name_chi":"台灣發票二維式條碼-右",
+		"name_cn":"台湾发票二维式条码-右",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUINumber",
+		"name":"TaiWan GUI Number",
+		"name_chi":"台灣發票號碼",
+		"name_cn":"台湾发票号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUIPrintCount",
+		"name":"TaiWan GUI Print Count",
+		"name_chi":"台灣發票列印次數",
+		"name_cn":"台湾发票列印次数",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUIPrintTotal",
+		"name":"TaiWan GUI Print Total",
+		"name_chi":"台灣發票列印總計",
+		"name_cn":"台湾发票列印总计",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUIRandomNum",
+		"name":"TaiWan GUI Random Number",
+		"name_chi":"台灣發票隨機碼",
+		"name_cn":"台湾发票随机码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUIRefNum",
+		"name":"TaiWan GUI Reference Number",
+		"name_chi":"台灣發票參考編號",
+		"name_cn":"台湾发票参考编号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUISellerNum",
+		"name":"TaiWan GUI Seller Number",
+		"name_chi":"台灣發票賣方統一編號",
+		"name_cn":"台湾发票卖方统一编号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUIType",
+		"name":"TaiWan GUI Type",
+		"name_chi":"台灣發票申報格式代號",
+		"name_cn":"台湾发票申报格式代号",
+		"remark":"a : 無統編, b : 有統編, c : 零稅, d : 免稅, e : 特種發票, f : 愛心捐",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUIVatTotal",
+		"name":"TaiWan GUI Tax Total",
+		"name_chi":"台灣發票稅項總計",
+		"name_cn":"台湾发票税项总计",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"GUIYear",
+		"name":"TaiWan Year",
+		"name_chi":"台灣民國年",
+		"name_cn":"台湾民国年",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"HotelCurrency",
+		"name":"Currency",
+		"name_chi":"貨幣",
+		"name_cn":"货币",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"InclusiveScRef",
+		"name":"Inclusive Service Charge Reference",
+		"name_chi":"已包含服務費項參考",
+		"name_cn":"已包含服务费项参考",
+		"remark":"",
+		"apply_to":"cr",
+		"count":5
+	},
+	{
+		"variable":"InclusiveTaxRef",
+		"name":"Inclusive Tax Reference",
+		"name_chi":"已包含稅項參考",
+		"name_cn":"已包含税项参考",
+		"remark":"",
+		"apply_to":"cr",
+		"count":4
+	},
+	{
+		"variable":"ItemCallNumber",
+		"name":"Item Call Number",
+		"name_chi":"菜式叫號",
+		"name_cn":"菜式叫号",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"ItemCatName",
+		"name":"Item Category Name",
+		"name_chi":"菜式類別名稱",
+		"name_cn":"菜式类别名称",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemCode",
+		"name":"Item Code",
+		"name_chi":"菜式編號",
+		"name_cn":"菜式编号",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"ItemCost",
+		"name":"Item Cost",
+		"name_chi":"菜式成本",
+		"name_cn":"菜式成本",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ItemCourseName",
+		"name":"Item Course Name",
+		"name_chi":"菜式上菜名稱",
+		"name_cn":"菜式上菜名称",
+		"remark":"",
+		"apply_to":"cak",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemCourseNum",
+		"name":"Item Course Num",
+		"name_chi":"菜式上菜號碼",
+		"name_cn":"菜式上菜号码",
+		"remark":"",
+		"apply_to":"ck"
+	},
+	{
+		"variable":"ItemCouponNumber",
+		"name":"Item Coupon Number",
+		"name_chi":"菜式優惠卷",
+		"name_cn":"菜式优惠卷",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ItemDept",
+		"name":"Item Department",
+		"name_chi":"菜式部門",
+		"name_cn":"菜式部门",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemDeptId",
+		"name":"Item Department ID",
+		"name_chi":"菜式部門識別碼",
+		"name_cn":"菜式部门标识符",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ItemDiscountTotal",
+		"name":"Item Discount Total",
+		"name_chi":"菜式折扣總計",
+		"name_cn":"菜式折扣总计",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"ItemGroupEnd",
+		"name":"Item Group End",
+		"name_chi":"菜式組合終結",
+		"name_cn":"菜式组合终结",
+		"remark":"1 : True, 0 : False",
+		"apply_to":"ck"
+	},
+	{
+		"variable":"ItemGroupStart",
+		"name":"Item Group Start",
+		"name_chi":"菜式組合起始",
+		"name_cn":"菜式组合起始",
+		"remark":"1 : True, 0 : False",
+		"apply_to":"ck"
+	},
+	{
+		"variable":"ItemId",
+		"name":"Item ID",
+		"name_chi":"菜式識別碼",
+		"name_cn":"菜式识别码",
+		"remark":"",
+		"apply_to":"k"
+	},
+	{
+		"variable":"ItemInfo",
+		"name":"Item Information",
+		"name_chi":"菜式資料",
+		"name_cn":"菜式资料",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemLoyaltyCardNumber",
+		"name":"Loyalty Card Number",
+		"name_chi":"積分計劃會員卡編號",
+		"name_cn":"积分计划会员卡编号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"ItemLoyaltyMemberNumber",
+		"name":"Item Loyalty Member Number",
+		"name_chi":"項目積分計劃會員名稱",
+		"name_cn":"项目积分计划会员名称",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ItemLoyaltyPointAddValue",
+		"name":"Loyalty Point Add Value",
+		"name_chi":"積分計劃會員積分增值",
+		"name_cn":"积分计划会员积分增值",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"ItemLoyaltyPointBalance",
+		"name":"Loyalty Point Balance",
+		"name_chi":"積分計劃會員積分餘額",
+		"name_cn":"积分计划会员积分余额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"ItemLoyaltySVCCardExpiryDate",
+		"name":"Item Loyalty SVC Card Expiry Date",
+		"name_chi":"項目積分計劃SVC卡到期日",
+		"name_cn":"项目积分计划SVC卡到期日",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ItemLoyaltySVCCardNumber",
+		"name":"Item Loyalty SVC Card Number",
+		"name_chi":"項目積分計劃SVC卡號碼",
+		"name_cn":"项目积分计划SVC卡号码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ItemLoyaltySVCRemark",
+		"name":"Item Loyalty SVC Remark",
+		"name_chi":"項目積分計劃SVC備註",
+		"name_cn":"项目积分计划SVC备注",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ItemMembershipIntfVoucherNumber",
+		"name":"Item Voucher Number",
+		"name_chi":"物品代金券號碼",
+		"name_cn":"物品代金券号码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ItemName",
+		"name":"Item Name",
+		"name_chi":"菜式名稱",
+		"name_cn":"菜式名称",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemOrderEmployee",
+		"name":"Order Employee",
+		"name_chi":"落單員工",
+		"name_cn":"落单员工",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemOrderEmployeeFirstName",
+		"name":"Order Employee First Name",
+		"name_chi":"落單員工名字",
+		"name_cn":"落单员工名字",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemOrderEmployeeLastName",
+		"name":"Order Employee Last Name",
+		"name_chi":"落單員工姓氏",
+		"name_cn":"落单员工姓氏",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemOrderTime",
+		"name":"Order Time",
+		"name_chi":"落單時間",
+		"name_cn":"落单时间",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"ItemOriginalPrice",
+		"name":"Item Original Price (Without Discount)",
+		"name_chi":"菜式價格 (未減折扣)",
+		"name_cn":"菜式价格 (未减折扣)",
+		"remark":"",
+		"apply_to":"cra"
+	},
+	{
+		"variable":"ItemPending",
+		"name":"item Pending",
+		"name_chi":"延後傳送",
+		"name_cn":"延后传送",
+		"remark":"1 : Pending, 0 : Not Pending",
+		"apply_to":"c"
+	},
+	{
+		"variable":"ItemPrice",
+		"name":"Item Net Price (With Discount)",
+		"name_chi":"菜式淨價格 (已減折扣)",
+		"name_cn":"菜式净价格 (已减折扣)",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"ItemQuantity",
+		"name":"Item Quantity",
+		"name_chi":"菜式數量",
+		"name_cn":"菜式数量",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"ItemSeatNum",
+		"name":"Item Seat Num",
+		"name_chi":"菜式座位號碼",
+		"name_cn":"菜式座位号码",
+		"remark":"",
+		"apply_to":"ck"
+	},
+	{
+		"variable":"ItemSequence",
+		"name":"Item Sequence",
+		"name_chi":"菜式次序",
+		"name_cn":"菜式次序",
+		"remark":"",
+		"apply_to":"k"
+	},
+	{
+		"variable":"ItemShortName",
+		"name":"Item Short Name",
+		"name_chi":"菜式短名稱",
+		"name_cn":"菜式短名称",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemTakeout",
+		"name":"Takeout Item",
+		"name_chi":"外賣菜式",
+		"name_cn":"外卖菜式",
+		"remark":"1 : Takeout, 0 : Normal",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"ItemTax",
+		"name":"Item Tax",
+		"name_chi":"菜式稅項",
+		"name_cn":"菜式税项",
+		"remark":"",
+		"apply_to":"cr",
+		"count":25
+	},
+	{
+		"variable":"ItemTaxTotal",
+		"name":"Item Tax Total",
+		"name_chi":"菜式稅項總計",
+		"name_cn":"菜式税项总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ItemTotal",
+		"name":"Item Total",
+		"name_chi":"菜式總計",
+		"name_cn":"菜式总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"ItemVoid",
+		"name":"Item Void",
+		"name_chi":"取消落單",
+		"name_cn":"取消落单",
+		"remark":"1 : Voided, 0 : Active",
+		"apply_to":"c"
+	},
+	{
+		"variable":"ItemVoidOrderTime",
+		"name":"Void Order Time",
+		"name_chi":"取消落單時間",
+		"name_cn":"取消落单时间",
+		"remark":"",
+		"apply_to":"c"
+	},
+	{
+		"variable":"ItemVoidOrderEmployee",
+		"name":"Void Order Employee",
+		"name_chi":"取消落單員工",
+		"name_cn":"取消落单员工",
+		"remark":"",
+		"apply_to":"c",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemVoidOrderEmployeeFirstName",
+		"name":"Void Order Employee First Name",
+		"name_chi":"取消落單員工名字",
+		"name_cn":"取消落单员工名字",
+		"remark":"",
+		"apply_to":"c",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemVoidOrderEmployeeLastName",
+		"name":"Void Order Employee Last Name",
+		"name_chi":"取消落單員工姓氏",
+		"name_cn":"取消落单员工姓氏",
+		"remark":"",
+		"apply_to":"c",
+		"multi_lang":1
+	},
+	{
+		"variable":"ItemVoidOrderEmployeeNum",
+		"name":"Void Order Employee Number",
+		"name_chi":"取消落單員工編號",
+		"name_cn":"取消落单员工编号",
+		"remark":"",
+		"apply_to":"c"
+	},
+	{
+		"variable":"LastReleasePaymentRunningNumber",
+		"name":"Last Release Payment Running Number",
+		"name_chi":"上一次取消付款流水號",
+		"name_cn":"上一次取消付款流水号",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"MembershipIntfAvailableVoucher",
+		"name":"Membership Interface Available Voucher",
+		"name_chi":"會員接口可使用優惠卷",
+		"name_cn":"会员接口可使用优惠卷",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"Message",
+		"name":"Message",
+		"name_chi":"信息",
+		"name_cn":"信息",
+		"remark":"For showing specific messages depending on print format types under different circumstances, e.g. void reasons, pantry messages, etc.",
+		"apply_to":"a",
+		"count":5,
+		"multi_lang":1
+	},
+	{
+		"variable":"ModifierCode",
+		"name":"Modifier Code",
+		"name_chi":"改碼編號",
+		"name_cn":"改码编号",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"ModifierName",
+		"name":"Modifier Name",
+		"name_chi":"改碼名稱",
+		"name_cn":"改码名称",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"ModifierPrice",
+		"name":"Modifier Price",
+		"name_chi":"改碼價格",
+		"name_cn":"改码价格",
+		"remark":"",
+		"apply_to":"crk"
+	},
+	{
+		"variable":"ModifierShortName",
+		"name":"Modifier Short Name",
+		"name_chi":"改碼短名稱",
+		"name_cn":"改码短名称",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"OgsEInvoiceQRCode",
+		"name":"OGS E-Invoice QR Code",
+		"name_chi":"OGS電子發票二維條碼",
+		"name_cn":"OGS电子发票二维条码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"OgsEInvoiceQRCodeError",
+		"name":"OGS E-Invoice QR Code Error",
+		"name_chi":"OGS電子發票二維條碼錯誤",
+		"name_cn":"OGS电子发票二维条码错误",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"OgsPayMatchNumber",
+		"name":"OGS Match Number",
+		"name_chi":"OGS配對號碼",
+		"name_cn":"OGS配对号码",
+		"remark":"",
+		"apply_to":"c"
+	},
+	{
+		"variable":"OgsPayReceiptUrl",
+		"name":"OGS Payment Receipt Url",
+		"name_chi":"OGS付款收據網址",
+		"name_cn":"OGS付款收据网址",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"OgsPaytype",
+		"name":"OGS Pay Type",
+		"name_chi":"OGS支付類型",
+		"name_cn":"OGS支付类型",
+		"remark":"",
+		"apply_to":"c"
+	},
+	{
+		"variable":"OgsPayUrl",
+		"name":"OGS Pay Url",
+		"name_chi":"OGS支付網址",
+		"name_cn":"OGS支付网址",
+		"remark":"",
+		"apply_to":"c"
+	},
+	{
+		"variable":"OutletCode",
+		"name":"Outlet Code",
+		"name_chi":"營業區編號",
+		"name_cn":"营业区编号",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"OutletCurrencyCode",
+		"name":"Outlet Currency Code",
+		"name_chi":"營業區貨幣代碼",
+		"name_cn":"营业区货币代码",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"OutletLogo",
+		"name":"Outlet Logo",
+		"name_chi":"營業區標誌",
+		"name_cn":"营业区标志",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"OutletName",
+		"name":"Outlet Name",
+		"name_chi":"營業區名稱",
+		"name_cn":"营业区名称",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"PageNumber",
+		"name":"Page Number",
+		"name_chi":"頁數",
+		"name_cn":"页数",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"PayAmountTotal",
+		"name":"Payment Amount Total",
+		"name_chi":"付款金額總計",
+		"name_cn":"付款金额总计",
+		"remark":"Sum of all PaymentAmount in each Payment",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentAmount",
+		"name":"Payment Amount",
+		"name_chi":"付款金額",
+		"name_cn":"付款金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentAmountInForeignCurrency",
+		"name":"Payment Amount In Foreign Currency",
+		"name_chi":"外幣付款金額",
+		"name_cn":"外币付款金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentByForeignCurrency",
+		"name":"Payment By Foreign Currency",
+		"name_chi":"以外幣付款",
+		"name_cn":"以外币付款",
+		"remark":"1: Pay by foreign currency, 0: Pay by local currency",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentChanges",
+		"name":"Payment Changes",
+		"name_chi":"付款找續",
+		"name_cn":"付款找续",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentChangesBackForeignCurrency",
+		"name":"Payment Changes",
+		"name_chi":"以外幣找續",
+		"name_cn":"以外币找续",
+		"remark":"1: Change back foreign currency, 0: Change back in local currency",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentChangesInForeignCurrency",
+		"name":"Payment Changes In Foreign Currency",
+		"name_chi":"外幣付款找續",
+		"name_cn":"外币付款找续",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentCode",
+		"name":"Payment Code",
+		"name_chi":"付款代碼",
+		"name_cn":"付款代码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentCreditCardApprovalCode",
+		"name":"Payment Credit Card Approval Code",
+		"name_chi":"付款信用卡審批代碼",
+		"name_cn":"付款信用卡审批代码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentCreditCardBatchNumber",
+		"name":"Payment Credit Card Batch Number",
+		"name_chi":"付款信用卡批號",
+		"name_cn":"付款信用卡批号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentCreditCardExpDate",
+		"name":"Payment Credit Card Expiry Date",
+		"name_chi":"付款信用卡到期日",
+		"name_cn":"付款信用卡到期日",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentCreditCardHolderName",
+		"name":"Payment Credit Card Holder Name",
+		"name_chi":"付款信用卡持卡人名稱",
+		"name_cn":"付款信用卡持卡人名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentCreditCardMerchantNumber",
+		"name":"Payment Credit Card Merchant Number",
+		"name_chi":"付款信用卡商家號碼",
+		"name_cn":"付款信用卡商家号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentCreditCardNum",
+		"name":"Payment Credit Card Number",
+		"name_chi":"付款信用卡號碼",
+		"name_cn":"付款信用卡号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentCreditCardReferenceNumber",
+		"name":"Payment Credit Card Reference Number",
+		"name_chi":"付款信用卡參考號碼",
+		"name_cn":"付款信用卡参考号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentCreditCardTerminalNumber",
+		"name":"Payment Credit Card Terminal Number",
+		"name_chi":"付款信用卡終端機號碼",
+		"name_cn":"付款信用卡终端机号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentCreditCardTypeName",
+		"name":"Payment Credit Card Type Name",
+		"name_chi":"付款信用卡種類名稱",
+		"name_cn":"付款信用卡种类名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentEmployeeMaxLimit",
+		"name":"Payment Empolyee Maximum Limit",
+		"name_chi":"付款員工最大限額",
+		"name_cn":"付款员工最大限额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentEmployeeName",
+		"name":"Payment Employee Name",
+		"name_chi":"付款員工名稱",
+		"name_cn":"付款员工名称",
+		"remark":"",
+		"apply_to":"r",
+		"multi_lang":1
+	},
+	{
+		"variable":"PaymentEmployeeFirstName",
+		"name":"Payment Employee First Name",
+		"name_chi":"付款員工名字",
+		"name_cn":"付款员工名字",
+		"remark":"",
+		"apply_to":"r",
+		"multi_lang":1
+	},
+	{
+		"variable":"PaymentEmployeeLastName",
+		"name":"Payment Employee Last Name",
+		"name_chi":"付款員工姓氏",
+		"name_cn":"付款员工姓氏",
+		"remark":"",
+		"apply_to":"r",
+		"multi_lang":1
+	},
+	{
+		"variable":"PaymentEmployeeNum",
+		"name":"Payment Employee Number",
+		"name_chi":"付款員工編號",
+		"name_cn":"付款员工编号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentEmployeeRemainingLimit",
+		"name":"Payment Employee Remaining Limit",
+		"name_chi":"付款員工剩餘限額",
+		"name_cn":"付款员工剩余限额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentESignature",
+		"name":"Payment E-signature",
+		"name_chi":"付款電子簽名",
+		"name_cn":"付款电子签名",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfAccountNumber",
+		"name":"Payment Gaming Interface Account Number",
+		"name_chi":"賭博介面付款帳戶號碼",
+		"name_cn":"赌博接口付款帐户号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfCardType",
+		"name":"Payment Gaming Interface Card Type",
+		"name_chi":"賭博介面付款帳號種類",
+		"name_cn":"赌博接口付款帐号种类",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfCompNumber",
+		"name":"Payment Gaming Interface COMP Number",
+		"name_chi":"賭博介面付款COMP號碼",
+		"name_cn":"赌博接口付款COMP号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfCouponId",
+		"name":"Payment Gaming Interface Coupon Id",
+		"name_chi":"賭博接口付款優惠券識別碼",
+		"name_cn":"赌博接口付款优惠券识别码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfGiftCertId",
+		"name":"Payment Gaming Interface Gift Certificate Id",
+		"name_chi":"賭博接口付款禮品券識別碼",
+		"name_cn":"赌博接口付款礼品券识别码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfInputMethod",
+		"name":"Payment Gaming Interface Input Method",
+		"name_chi":"賭博接口付款會員號碼輸入方法",
+		"name_cn":"赌博接口付款会员号码输入方法",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfMemberCardNumber",
+		"name":"Payment Gaming Interface Member Card Number",
+		"name_chi":"賭博接口付款會員卡號",
+		"name_cn":"赌博接口付款会员卡号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfMemberFirstName",
+		"name":"Payment Gaming Interface Member First Name",
+		"name_chi":"賭博介付款面會員名字",
+		"name_cn":"赌博接口付款会员名字",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfMemberLastName",
+		"name":"Payment Gaming Interface Member Last Name",
+		"name_chi":"賭博介面付款會員姓氏",
+		"name_cn":"赌博接口付款会员姓氏",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfMemberName",
+		"name":"Payment Gaming Interface Member Name",
+		"name_chi":"賭博接口付款會員名稱",
+		"name_cn":"赌博接口付款会员名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfMemberNumber",
+		"name":"Payment Gaming Interface Member Number",
+		"name_chi":"賭博接口付款會員號碼",
+		"name_cn":"赌博接口付款会员号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfPointBalance",
+		"name":"Payment Gaming Interface Point Balance",
+		"name_chi":"賭博接口付款會員積分總值",
+		"name_cn":"赌博接口付款会员积分总值",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfPointDepartment",
+		"name":"Payment Gaming Interface Point Department",
+		"name_chi":"賭博接口付款會員營業區積分",
+		"name_cn":"赌博接口付款会员营业区积分",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfTransactionKey",
+		"name":"Payment Gaming Interface Transction Key",
+		"name_chi":"賭博接口交易編號",
+		"name_cn":"赌博接口交易编号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfRemark",
+		"name":"Payment Gaming Interface Remark",
+		"name_chi":"賭博接口付款原因備註",
+		"name_cn":"赌博接口付款原因备注",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfReferenceNumber",
+		"name":"Payment Gaming Interface Reference Number",
+		"name_chi":"賭博介面付款參考號碼",
+		"name_cn":"赌博接口付款参考号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfStaffId",
+		"name":"Payment Gaming Interface Staff Id",
+		"name_chi":"賭博接口付款員工號碼",
+		"name_cn":"赌博接口付款员工号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentGamingIntfUserNumber",
+		"name":"Payment Gaming Interface User Number",
+		"name_chi":"賭博接口付款使用者號碼",
+		"name_cn":"赌博接口付款使用者号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentLoyaltyCardNumber",
+		"name":"Payment Loyalty Card Number",
+		"name_chi":"付款積分計劃會員卡號",
+		"name_cn":"付款积分计划会员卡号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentLoyaltyCurrentAmount",
+		"name":"Payment Loyalty After Amount",
+		"name_chi":"付款積分計劃會員餘額",
+		"name_cn":"付款积分计划会员余额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentLoyaltyOriginalAmount",
+		"name":"Payment Loyalty Original Amount",
+		"name_chi":"付款積分計劃會員原有金額",
+		"name_cn":"付款积分计划会员原有金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentLoyaltySVCCardNumber",
+		"name":"Payment Loyalty SVC Card Number",
+		"name_chi":"積分計劃SVC卡付款號碼",
+		"name_cn":"积分计划SVC卡付款号码",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"PaymentLoyaltySVCRemainingBalance",
+		"name":"Payment Loyalty SVC Card Remaining Balance",
+		"name_chi":"積分計劃SVC卡剩餘儲值金額",
+		"name_cn":"积分计划SVC卡剩余储值金额",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"PaymentMemberDisplayName",
+		"name":"Payment Member Display Name",
+		"name_chi":"付款會員顯示名稱",
+		"name_cn":"付款会员显示名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMemberName",
+		"name":"Payment Member Name",
+		"name_chi":"付款會員名稱",
+		"name_cn":"付款会员名称",
+		"remark":"",
+		"apply_to":"r",
+		"count":2
+	},
+	{
+		"variable":"PaymentMemberNum",
+		"name":"Payment Member Number",
+		"name_chi":"付款會員編號",
+		"name_cn":"付款会员编号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfAccountName",
+		"name":"Payment Membership Interface Account Name",
+		"name_chi":"會員接口付款帳單名稱",
+		"name_cn":"会员接口付款帐单名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfAccountNumber",
+		"name":"Payment Membership Interface Account Number",
+		"name_chi":"會員接口付款帳單號碼",
+		"name_cn":"会员接口付款帐单号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfAuthorityCode",
+		"name":"Payment Membership Interface Authority Code",
+		"name_chi":"會員接口付款授權碼",
+		"name_cn":"会员接口付款授权码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfAwardCode",
+		"name":"Payment Attached (Membership Interface) Award Code",
+		"name_chi":"會員接口付款積分代碼",
+		"name_cn":"会员接口付款积分代码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfCancelAwardNumber",
+		"name":"Payment Attached (Membership Interface) Cancel Award Number",
+		"name_chi":"會員接口付款取消積分號碼",
+		"name_cn":"会员接口付款取消积分号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfCardLevelName",
+		"name":"Payment Membership Interface Card Level Name",
+		"name_chi":"會員接口付款卡級別名稱",
+		"name_cn":"会员接口付款授级别名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfCardNumber",
+		"name":"Payment Membership Interface Card Number",
+		"name_chi":"會員接口付款卡號碼",
+		"name_cn":"会员接口付款卡号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipInfCardStoreValueUsed",
+		"name":"Payment Membership Interface Card Store Value Used",
+		"name_chi":"會員接口付款用過的卡存儲值",
+		"name_cn":"会员接口付款用过的卡存储值",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfCardTypeName",
+		"name":"Payment Membership Interface Card Type Name",
+		"name_chi":"會員接口付款卡種類名稱",
+		"name_cn":"会员接口付款卡种类名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfCardSN",
+		"name":"Payment Membership Interface Card SN",
+		"name_chi":"會員接口付款卡種類名稱",
+		"name_cn":"会员接口付款卡种类名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfCouponFaceAmt",
+		"name":"Payment Membership Interface Coupon Face Amount",
+		"name_chi":"會員接口付款優惠卷票面金額",
+		"name_cn":"会员接口付款优惠卷票面金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfCouponNumber",
+		"name":"Payment Membership Interface Coupon Number",
+		"name_chi":"會員接口付款優惠卷號碼",
+		"name_cn":"会员接口付款优惠卷号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfEnglishName",
+		"name":"Payment Membership Interface English Name",
+		"name_chi":"會員接口付款英文名稱",
+		"name_cn":"会员接口付款英文名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfExpiryDate",
+		"name":"Payment Membership Interface Expiry Date",
+		"name_chi":"會員接口付款到期日",
+		"name_cn":"会员接口付款到期日",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfLocalBalance",
+		"name":"Payment Membership Interface Local Balance",
+		"name_chi":"會員接口付款當地結餘",
+		"name_cn":"会员接口付款当地结余",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfMemberName",
+		"name":"Payment Membership Interface Member Name",
+		"name_chi":"會員接口付款會員名稱",
+		"name_cn":"会员接口付款会员名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfMemberNumber",
+		"name":"Payment Membership Interface Member Number",
+		"name_chi":"會員接口付款會員號碼",
+		"name_cn":"会员接口付款会员号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfMemberType",
+		"name":"Payment Membership Interface Member Type",
+		"name_chi":"會員接口付款會員種類",
+		"name_cn":"会员接口付款会员种类",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfPointBalance",
+		"name":"Payment Membership Interface Point Balance",
+		"name_chi":"會員接口付款分數結餘",
+		"name_cn":"会员接口付款分数结余",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfPointEarn",
+		"name":"Payment Membership Interface Point Earn",
+		"name_chi":"會員接口付款賺取分數",
+		"name_cn":"会员接口付款赚取分数",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfPointRedeem",
+		"name":"Payment Membership Interface Point Redeem",
+		"name_chi":"會員接口付款已兌換積分",
+		"name_cn":"会员接口付款已兑换积分",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfPointUsed",
+		"name":"Payment Membership Interface Point Used",
+		"name_chi":"會員接口付款用過的分數",
+		"name_cn":"会员接口付款用过的分数",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfPointsReturned",
+		"name":"Payment Membership Interface Points Returned",
+		"name_chi":"會員接口付款退款積分",
+		"name_cn":"会员接口付款退款积分",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfPrintLine",
+		"name":"Payment Membership Interface Card Print Line",
+		"name_chi":"會員接口付款打印行",
+		"name_cn":"会员接口付款打印行",
+		"remark":"",
+		"count":2,
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMembershipIntfTraceID",
+		"name":"Payment Membership Interface Trace ID",
+		"name_chi":"會員接口付款追蹤號",
+		"name_cn":"会员接口付款追踪号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentMemberSpending",
+		"name":"Payment Member Spending Total",
+		"name_chi":"付款會員總開銷",
+		"name_cn":"付款会员总开销",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentName",
+		"name":"Payment Name",
+		"name_chi":"付款名稱",
+		"name_cn":"付款名称",
+		"remark":"",
+		"apply_to":"r",
+		"multi_lang":1
+	},
+	{
+		"variable":"PaymentNonGUI",
+		"name":"Payment Non-GUI for Tai Wan GUI",
+		"name_chi":"非台灣GUI付款",
+		"name_cn":"非台湾GUI付款",
+		"remark":"1: Non-GUI payment, 0: GUI payment",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentOctopusCardId",
+		"name":"Octopus Card ID",
+		"name_chi":"八達通咭識別碼",
+		"name_cn":"八达通咭识别码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentOctopusCardType",
+		"name":"Octopus Payment Card Type",
+		"name_chi":"八達通付款咭類型",
+		"name_cn":"八达通付款咭类型",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentOctopusCurrentAmount",
+		"name":"Octopus Card Amount After Payment",
+		"name_chi":"八達通餘額",
+		"name_cn":"八达通余额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentOctopusLastAddValueDate",
+		"name":"Octopus Last Add Value Date",
+		"name_chi":"上一次八達通增值日子",
+		"name_cn":"上一次八达通增值日子",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentOctopusLastAddValueType",
+		"name":"Octopus Last Add Value Type",
+		"name_chi":"上一次八達通增值種類",
+		"name_cn":"上一次八达通增值种类",
+		"remark":"CASH: cash, AAVS: AAVS, ONLINE: online",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentOctopusDeviceId",
+		"name":"Octopus Device ID",
+		"name_chi":"八達通裝置識別碼",
+		"name_cn":"八达通装置识别码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentOctopusOriginalAmount",
+		"name":"Octopus Card Original Amount Before Payment",
+		"name_chi":"八達通原有金額",
+		"name_cn":"八达通原有金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentOctopusTransactionAmount",
+		"name":"Octopus Payment Amount",
+		"name_chi":"八達通繳付金額",
+		"name_cn":"八达通缴付金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentOctopusTransactionTime",
+		"name":"Octopus Transaction Time",
+		"name_chi":"八達通交易時間",
+		"name_cn":"八达通缴付交易时间",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentOctopusUdsn",
+		"name":"Octopus Payment UDSN",
+		"name_chi":"八達通付款UDSN",
+		"name_cn":"八达通付款UDSN",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPayInfAccountNum",
+		"name":"Payment Pay Interface Account Number",
+		"name_chi":"付款介面賬戶號碼",
+		"name_cn":"付款介面账户号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPayInfCardNumber",
+		"name":"Payment Pay Interface Card Number",
+		"name_chi":"付款介面渠道交易卡號",
+		"name_cn":"付款介面渠道交易卡号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPayInfChannelTransactionNum",
+		"name":"Payment Pay Interface Channel Transaction Number",
+		"name_chi":"付款介面渠道交易號碼",
+		"name_cn":"付款介面渠道交易号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPayInfInvoiceAmount",
+		"name":"Payment Pay Interface Invoice Amount",
+		"name_chi":"付款介面發票金額",
+		"name_cn":"付款介面发票金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPayInfMerchantName",
+		"name":"Payment Pay Interface Merchant Name",
+		"name_chi":"付款介面商店名稱",
+		"name_cn":"付款介面商店名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPayInfMerchantNumber",
+		"name":"Payment Pay Interface Merchant Number",
+		"name_chi":"付款介面商店號碼",
+		"name_cn":"付款介面商店号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPayInfPayAmount",
+		"name":"Payment Pay Interface Pay Amount",
+		"name_chi":"付款介面付款金額",
+		"name_cn":"付款介面付款金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPayInfPlatformTransactionNum",
+		"name":"Payment Pay Interface Platform Transaction Number",
+		"name_chi":"付款介面平台交易號碼",
+		"name_cn":"付款介面平台交易号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPayInfPointsBalance",
+		"name":"Payment Pay Interface Point Balance",
+		"name_chi":"付款介面分數結餘",
+		"name_cn":"付款介面分数结余",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPayInfTransactionNum",
+		"name":"Payment Pay Interface Transaction Number",
+		"name_chi":"付款介面交易號碼",
+		"name_cn":"付款介面交易号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPayInfTransactionTime",
+		"name":"Payment Pay Interface Transaction Time",
+		"name_chi":"付款介面交易時間",
+		"name_cn":"付款介面交易时间",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPmsGuestName",
+		"name":"Payment PMS Guest Name",
+		"name_chi":"PMS付款客人名稱",
+		"name_cn":"PMS付款客人名称",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPmsGuestNumber",
+		"name":"Payment PMS Guest Number",
+		"name_chi":"PMS付款客人號碼",
+		"name_cn":"PMS付款客人号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentPmsRoomNumber",
+		"name":"Payment PMS Room Number",
+		"name_chi":"PMS付款房間號碼",
+		"name_cn":"PMS付款房间号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentReferenceNum",
+		"name":"Payment Reference Number",
+		"name_chi":"付款參考號碼",
+		"name_cn":"付款参考号码",
+		"remark":"",
+		"apply_to":"r",
+		"count":3
+	},
+	{
+		"variable":"PaymentResidue",
+		"name":"Payment Residue Amount",
+		"name_chi":"付款余數金額",
+		"name_cn":"付款余数金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentResidueInForeignCurrency",
+		"name":"Payment Residue Amount",
+		"name_chi":"外幣付款余數金額",
+		"name_cn":"外币付款余数金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentRewriteCardCardNumber",
+		"name":"Payment Rewrite Card Number",
+		"name_chi":"付款重寫卡號碼",
+		"name_cn":"付款重写卡号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentRewriteCardCurrentAmount",
+		"name":"Rewrite Card Amount After Payment",
+		"name_chi":"付款重寫卡餘額",
+		"name_cn":"付款重写卡余额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentRewriteCardOriginalAmount",
+		"name":"Rewrite Card Original Amount Before Payment",
+		"name_chi":"付款重寫卡原有金額",
+		"name_cn":"付款重写卡原有金额",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentRunningNumber",
+		"name":"Payment Running Number",
+		"name_chi":"付款流水號",
+		"name_cn":"付款流水号",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentSurcharge",
+		"name":"Payment Surcharge",
+		"name_chi":"付款附加費",
+		"name_cn":"付款附加费",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentSurchargeInForeignCurrency",
+		"name":"Payment Surcharge In Foreign Currency",
+		"name_chi":"外幣付款附加費",
+		"name_cn":"外币付款附加费",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentTips",
+		"name":"Payment Tips",
+		"name_chi":"付款賞錢",
+		"name_cn":"付款赏钱",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentTipsInForeignCurrency",
+		"name":"Payment Tips In Foreign Currency",
+		"name_chi":"外幣付款賞錢",
+		"name_cn":"外币付款赏钱",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentTotal",
+		"name":"Payment Total",
+		"name_chi":"付款總計",
+		"name_cn":"付款总计",
+		"remark":"Sum of PaymentAmount and PaymentTips",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentTotalInForeignCurrency",
+		"name":"Payment Total In Foreign Currency",
+		"name_chi":"外幣付款總計",
+		"name_cn":"外币付款总计",
+		"remark":"Sum of PaymentAmount and PaymentTips",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentType",
+		"name":"Payment Type",
+		"name_chi":"付款類型",
+		"name_cn":"付款类型",
+		"remark":"e.g. cash, credit_card, voucher, coupon, octopus, duty_meal, on_credit, etc.",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentVoucherIntfVoucherNumber",
+		"name":"Payment Voucher Interface Voucher Number",
+		"name_chi":"優惠卷接口付款優惠卷號碼",
+		"name_cn":"优惠卷接口付款优惠卷号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"PaymentVoucherNum",
+		"name":"Payment Voucher Number",
+		"name_chi":"付款憑證號碼",
+		"name_cn":"付款凭证号码",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"Phone",
+		"name":"Phone",
+		"name_chi":"電話",
+		"name_cn":"电话",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"PrintCount",
+		"name":"Print Count",
+		"name_chi":"列印次數",
+		"name_cn":"列印次数",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"PrintDate",
+		"name":"Print Date",
+		"name_chi":"列印日期",
+		"name_cn":"列印日期",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"PrintEmployee",
+		"name":"Print Employee",
+		"name_chi":"列印員工",
+		"name_cn":"列印员工",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"PrintEmployeeFirstName",
+		"name":"Print Employee First Name",
+		"name_chi":"列印員工名字",
+		"name_cn":"列印员工名字",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"PrintEmployeeLastName",
+		"name":"Print Employee Last Name",
+		"name_chi":"列印員工姓氏",
+		"name_cn":"列印员工姓氏",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"PrintTime",
+		"name":"Print Time",
+		"name_chi":"列印時間",
+		"name_cn":"列印时间",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"PrintQueueName",
+		"name":"Print Queue Name",
+		"name_chi":"列印隊列名稱",
+		"name_cn":"列印队列名称",
+		"remark":"",
+		"apply_to":"ak",
+		"multi_lang":1
+	},
+	{
+		"variable":"QRCode",
+		"name":"QR Code",
+		"name_chi":"二維碼",
+		"name_cn":"二维码",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1
+	},
+	{
+		"variable":"ReceiptPrintCount",
+		"name":"Receipt Print Count",
+		"name_chi":"收據列印次數",
+		"name_cn":"收据列印次数",
+		"remark":"",
+		"apply_to":"r"
+	},
+	{
+		"variable":"ReprintReceipt",
+		"name":"Re-print Receipt",
+		"name_chi":"重印收據",
+		"name_cn":"重印收据",
+		"remark":"1 : True, 0 : False",
+		"apply_to":"r"
+	},
+	{
+		"variable":"ReservationPaymentTotal",
+		"name":"Reservation Payment Total",
+		"name_chi":"預訂付款總計",
+		"name_cn":"预订付款总计",
+		"remark":"",
+		"apply_to":"c"
+	},
+	{
+		"variable":"SC",
+		"name":"Service Charge",
+		"name_chi":"服務費",
+		"name_cn":"服务费",
+		"remark":"",
+		"apply_to":"cr",
+		"count":5
+	},
+	{
+		"variable":"SCEligibleForEarnPoint",
+		"name":"Service Charge Eligible For Earn Point",
+		"name_chi":"合資格積分賺取服務費",
+		"name_cn":"合资格积分赚取服务费",
+		"remark":"",
+		"apply_to":"cr",
+		"count":5
+	},
+	{
+		"variable":"SCEligibleForPointRedemption",
+		"name":"Service Charge Eligible For Point Redemption",
+		"name_chi":"合資格積分兌換服務費",
+		"name_cn":"合资格积分兑换服务费",
+		"remark":"",
+		"apply_to":"cr",
+		"count":5
+	},
+	{
+		"variable":"SCName",
+		"name":"Service Charge Name",
+		"name_chi":"服務費名稱",
+		"name_cn":"服务费名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1,
+		"count":5
+	},
+	{
+		"variable":"SCShortName",
+		"name":"Service Charge Short Name",
+		"name_chi":"服務費短名稱",
+		"name_cn":"服务费短名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1,
+		"count":5
+	},
+	{
+		"variable":"SCTotal",
+		"name":"Service Charge Total",
+		"name_chi":"服務費總計",
+		"name_cn":"服务费总计",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"SCTotalWithTax",
+		"name":"Service Charge Total (With Tax)",
+		"name_chi":"服務費總計 (已含稅的菜式)",
+		"name_cn":"服务费总计 (已含税的菜式)",
+		"remark":"",
+		"apply_to":"cr",
+		"count":25
+	},
+	{
+		"variable":"SetMenuCode",
+		"name":"Set Menu Code",
+		"name_chi":"套餐編號",
+		"name_cn":"套餐编号",
+		"remark":"",
+		"apply_to":"ak"
+	},
+	{
+		"variable":"SetMenuId",
+		"name":"Set Menu ID",
+		"name_chi":"套餐識別碼",
+		"name_cn":"套餐识别码",
+		"remark":"",
+		"apply_to":"k"
+	},
+	{
+		"variable":"SetMenuName",
+		"name":"Set Menu Name",
+		"name_chi":"套餐名稱",
+		"name_cn":"套餐名称",
+		"remark":"",
+		"apply_to":"ak",
+		"multi_lang":1
+	},
+	{
+		"variable":"ShopName",
+		"name":"Shop Name",
+		"name_chi":"商店名稱",
+		"name_cn":"商店名称",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"StationName",
+		"name":"Station Name",
+		"name_chi":"工作站名稱",
+		"name_cn":"工作站名称",
+		"remark":"",
+		"apply_to":"crk",
+		"multi_lang":1
+	},
+	{
+		"variable":"TableName",
+		"name":"Table Name",
+		"name_chi":"餐檯名稱",
+		"name_cn":"餐台名称",
+		"remark":"",
+		"apply_to":"crak",
+		"multi_lang":1
+	},
+	{
+		"variable":"TableNumber",
+		"name":"Table Number",
+		"name_chi":"檯號",
+		"name_cn":"台号",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"Tax",
+		"name":"Tax",
+		"name_chi":"稅項",
+		"name_cn":"税项",
+		"remark":"",
+		"apply_to":"cr",
+		"count":25
+	},
+	{
+		"variable":"TaxName",
+		"name":"Tax Name",
+		"name_chi":"稅項名稱",
+		"name_cn":"税项名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1,
+		"count":25
+	},
+	{
+		"variable":"TaxRate",
+		"name":"Tax Rate",
+		"name_chi":"稅率",
+		"name_cn":"税率",
+		"remark":"",
+		"apply_to":"cr",
+		"count":25
+	},
+	{
+		"variable":"TaxShortName",
+		"name":"Tax Short Name",
+		"name_chi":"稅項短名稱",
+		"name_cn":"税项短名称",
+		"remark":"",
+		"apply_to":"cr",
+		"multi_lang":1,
+		"count":25
+	},
+	{
+		"variable":"TaxTotal",
+		"name":"Tax Total",
+		"name_chi":"稅項總計",
+		"name_cn":"税项总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"TipsTotal",
+		"name":"Tips Total",
+		"name_chi":"賞錢總計",
+		"name_cn":"赏钱总计",
+		"remark":"",
+		"apply_to":"cr"
+	},
+	{
+		"variable":"TipTrackingDirectTipBalance",
+		"name":"Tip Tracking Direct Tip Balance",
+		"name_chi":"小費分配紀錄 - 直接小費餘額",
+		"name_cn":"小费分配纪录 - 直接小费余额",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"TipTrackingDirectTipOutAmount",
+		"name":"Tip Tracking Direct Tip Out Amount",
+		"name_chi":"小費分配紀錄 - 直接小費支出金額",
+		"name_cn":"小费分配纪录 - 直接小费支出金额",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"TipTrackingFromEmployee",
+		"name":"Tip Tracking From Employee",
+		"name_chi":"小費分配紀錄 - 員工（由）",
+		"name_cn":"小费分配纪录 - 员工（由）",
+		"remark":"",
+		"apply_to":"a",
+		"multi_lang":1
+	},
+	{
+		"variable":"TipTrackingFromEmployeeFirstName",
+		"name":"Tip Tracking From Employee First Name",
+		"name_chi":"小費分配紀錄 - 員工名字（由）",
+		"name_cn":"小费分配纪录 - 员工名字（由）",
+		"remark":"",
+		"apply_to":"a",
+		"multi_lang":1
+	},
+	{
+		"variable":"TipTrackingFromEmployeeLastName",
+		"name":"Tip Tracking From Employee Last Name",
+		"name_chi":"小費分配紀錄 - 員工姓氏（由）",
+		"name_cn":"小费分配纪录 - 员工姓氏（由）",
+		"remark":"",
+		"apply_to":"a",
+		"multi_lang":1
+	},
+	{
+		"variable":"TipTrackingFromEmployeeNumber",
+		"name":"Tip Tracking From Employee Number",
+		"name_chi":"小費分配紀錄 - 員工編號（由）",
+		"name_cn":"小费分配纪录 - 员工编号（由）",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"TipTrackingServiceChargeBalance",
+		"name":"Tip Tracking Service Charge Balance",
+		"name_chi":"小費分配紀錄 - 服務費餘額",
+		"name_cn":"小费分配纪录 - 服务费余额",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"TipTrackingServiceChargeOutAmount",
+		"name":"Tip Tracking Service Charge Out Amount",
+		"name_chi":"小費分配紀錄 - 服務費支出金額",
+		"name_cn":"小费分配纪录 - 服务费支出金额",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"TipTrackingTipBalance",
+		"name":"Tip Tracking Tip Balance",
+		"name_chi":"小費分配紀錄 - 小費餘額",
+		"name_cn":"小费分配纪录 - 小费余额",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"TipTrackingTipOutAmount",
+		"name":"Tip Tracking Tip Out Amount",
+		"name_chi":"小費分配紀錄 - 小費支出金額",
+		"name_cn":"小费分配纪录 - 小费支出金额",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"TipTrackingToEmployee",
+		"name":"Tip Tracking To Employee",
+		"name_chi":"小費分配紀錄 - 員工（至）",
+		"name_cn":"小费分配纪录 - 员工（至）",
+		"remark":"",
+		"apply_to":"a",
+		"multi_lang":1
+	},
+	{
+		"variable":"TipTrackingToEmployeeFirstName",
+		"name":"Tip Tracking To Employee First Name",
+		"name_chi":"小費分配紀錄 - 員工名字（至）",
+		"name_cn":"小费分配纪录 - 员工名字（至）",
+		"remark":"",
+		"apply_to":"a",
+		"multi_lang":1
+	},
+	{
+		"variable":"TipTrackingToEmployeeLastName",
+		"name":"Tip Tracking To Employee Last Name",
+		"name_chi":"小費分配紀錄 - 員工姓氏（至）",
+		"name_cn":"小费分配纪录 - 员工姓氏（至）",
+		"remark":"",
+		"apply_to":"a",
+		"multi_lang":1
+	},
+	{
+		"variable":"TipTrackingToEmployeeNumber",
+		"name":"Tip Tracking To Employee Number",
+		"name_chi":"小費分配紀錄 - 員工編號（至）",
+		"name_cn":"小费分配纪录 - 员工编号（至）",
+		"remark":"",
+		"apply_to":"a"
+	},
+	{
+		"variable":"TotalItem",
+		"name":"Total Item Quantity",
+		"name_chi":"菜式總數量",
+		"name_cn":"菜式总数量",
+		"remark":"",
+		"apply_to":"crak"
+	},
+	{
+		"variable":"TotalItemCost",
+		"name":"Total Item Cost",
+		"name_chi":"菜式成本總計",
+		"name_cn":"菜式成本总计",
+		"remark":"Item Unit Cost * Item Quantity",
+		"apply_to":"cr"
+	},{
+      		"variable":"ItemReference",
+      		"name_chi":"項目引用",
+            "name_cn":"项目引用",
+      		"multi_lang":"1",
+      		"count" : "",
+      		"apply_to":"cra"
+
+    },{
+            "variable":"OddEvenAmount",
+            "name_chi":"OddEvenAmount",
+            "name_cn":"OddEvenAmount",
+            "multi_lang":"1",
+            "count" : "",
+            "apply_to":"r"
+    }
+]
