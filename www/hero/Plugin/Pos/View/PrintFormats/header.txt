@@ -439,7 +439,6 @@
 							'ItemLoyaltySVCRemark' => '項目積分計劃SVC備註',
 							'ItemMembershipIntfVoucherNumber' => '12345678',
 							'ItemReference' => '項目引用',
-							'OddEvenAmount' =>'OddEvenAmount',
 							'ChildItems' => array(
 												0 => array (
 													'ChildItemName' => 'Caesar Salad (One Dish)',
@@ -606,7 +605,6 @@
 							'ItemLoyaltyPointBalance' => '100',
 							'ItemMembershipIntfVoucherNumber' => '12345678',
 							'ItemReference' => '項目引用',
-							'OddEvenAmount' =>'OddEvenAmount',
 							'Discounts' => array(
 												0 => array (
 														'DiscountCode' => '0001',
@@ -866,7 +864,8 @@
 								'PaymentLoyaltySVCRemainingBalance' => '積分計劃SVC卡剩餘儲值金額',
 								'PaymentLoyaltyCardNumber' => 'C0000001',
 								'PaymentLoyaltyCurrentAmount' => '1000',
-								'PaymentLoyaltyOriginalAmount' => '2000'
+								'PaymentLoyaltyOriginalAmount' => '2000',
+								'OddEvenAmount' =>'OddEvenAmount',
 							)
 					);
 		$vars['Payments'] = $Payments;
